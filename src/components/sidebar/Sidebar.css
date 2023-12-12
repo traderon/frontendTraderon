@@ -1,0 +1,12 @@
+/* Change the width and color of the scrollbar */
+/* Change the width and color of the scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 2px;
+  background-color: #0094b6;
+}
+
+/* Change the appearance of the scrollbar thumb */
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #a1c4f8;
+  border-radius: 5px;
+}

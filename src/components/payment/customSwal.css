@@ -1,0 +1,15 @@
+.swal-button {
+  background-color: #0094b6;
+}
+
+.swal-title {
+  color: #0094b6;
+  font-size: xx-large;
+}
+
+.swal-text {
+  color: #0094b6;
+  margin-top: 2rem;
+  font-size: x-large;
+  text-align: center;
+}
