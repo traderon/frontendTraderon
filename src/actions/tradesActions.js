@@ -19,19 +19,15 @@ export const getTradesData =
         broker: brokerName,
         key: accessToken,
         id: accountId,
+        user: userId,
       })
       .then((res) => {
-        const tradeData = res.data;
         enqueueSnackbar("Successfully imported", {
           variant: "success",
         });
-        dispatch(
-          setTradesToDatabase(
-            { user: userId, trades: tradeData },
-            navigate,
-            enqueueSnackbar
-          )
-        );
+        dispatch({ type: CLEAR_ERRORS });
+        dispatch(getTradesFromDatabase({ user: userId }, enqueueSnackbar));
+        navigate("/tradestable");
       })
       .catch((err) => {
         enqueueSnackbar("Can't import data", {
@@ -40,25 +36,6 @@ export const getTradesData =
         dispatch({ type: CLEAR_ERRORS });
         dispatch(getTradesFromDatabase({ user: userId }, enqueueSnackbar));
         navigate("/tradestable");
-      });
-  };
-
-export const setTradesToDatabase =
-  (tradeData, navigate, enqueueSnackbar) => (dispatch) => {
-    axios
-      .post("/api/trades", tradeData)
-      .then((res) => {
-        dispatch({ type: CLEAR_ERRORS });
-        dispatch(
-          getTradesFromDatabase({ user: tradeData.user }, enqueueSnackbar)
-        );
-        navigate("/tradestable");
-      })
-      .catch((err) => {
-        enqueueSnackbar("Fail to save trades", {
-          variant: "error",
-        });
-        dispatch({ type: GET_TRADES, payload: null });
       });
   };
 
