@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import PropTypes from "prop-types";
 import { alpha } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -84,27 +84,15 @@ function subRow(subRowData, isOpen) {
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  {subrow.map((subRow) => (
-                    <TableRow key={subRow.date}>
+                  {subrow.map((subRow, i) => (
+                    <TableRow key={i}>
                       <TableCell component="th" scope="row">
                         {subRow.action}
                       </TableCell>
                       <TableCell>{subRow.spread}</TableCell>
                       <TableCell>{subRow.type}</TableCell>
-                      <TableCell>{`${
-                        new Date(subRow.date).getMonth() < 9 ? "0" : ""
-                      }${new Date(subRow.date).getMonth() + 1}-${
-                        new Date(subRow.date).getDate() < 10 ? "0" : ""
-                      }${new Date(subRow.date).getDate()} ${new Date(
-                        subRow.date
-                      ).getFullYear()}`}</TableCell>
-                      <TableCell>{`${
-                        new Date(subRow.date).getHours() < 10 ? "0" : ""
-                      }${new Date(subRow.date).getHours()}:${
-                        new Date(subRow.date).getMinutes() < 10 ? "0" : ""
-                      }${new Date(subRow.date).getMinutes()}:${
-                        new Date(subRow.date).getSeconds() < 10 ? "0" : ""
-                      }${new Date(subRow.date).getSeconds()}`}</TableCell>
+                      <TableCell>{subRow.date.slice(0, 10)}</TableCell>
+                      <TableCell>{subRow.date.slice(11, 19)}</TableCell>
                       <TableCell>{subRow.size}</TableCell>
                       <TableCell>{subRow.position}</TableCell>
                       <TableCell>{subRow.price}</TableCell>
@@ -350,17 +338,13 @@ export default function EnhancedTable(props) {
   const [opened, setOpened] = React.useState([]);
   const [rows, setRows] = React.useState([]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setRows(
       props.dataToDisplay.map((tdata) => {
         return createData(
           tdata.id,
           tdata.status,
-          `${new Date(tdata.openDate).getMonth() < 9 ? "0" : ""}${
-            new Date(tdata.openDate).getMonth() + 1
-          }-${new Date(tdata.openDate).getDate() < 10 ? "0" : ""}${new Date(
-            tdata.openDate
-          ).getDate()} ${new Date(tdata.openDate).getFullYear()}`,
+          tdata.openDate.slice(0, 10),
           tdata.symbol,
           parseFloat(tdata.entry),
           tdata.exit === null ? 0 : parseFloat(tdata.exit),
@@ -375,6 +359,11 @@ export default function EnhancedTable(props) {
       })
     );
   }, [props]);
+
+  useEffect(() => {
+    props.tradeSelect(selected);
+  }, [selected, props]);
+
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === "asc";
     setOrder(isAsc ? "desc" : "asc");

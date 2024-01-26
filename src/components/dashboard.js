@@ -47,7 +47,6 @@ export default function Dashboard() {
       group: "sparklines",
     },
     stroke: {
-      curve: "smooth",
       width: 1,
     },
     fill: {
@@ -60,6 +59,9 @@ export default function Dashboard() {
     },
     tooltip: {
       theme: "light",
+      y: {
+        formatter: (value) => value.toFixed(2),
+      },
     },
     xaxis: {},
   });
@@ -156,10 +158,10 @@ export default function Dashboard() {
             total_win_or_loss_score,
           } = res.data;
           setAccumTotal(accumulative_return_total);
-          setAccumChart({ ...accumChart, data: accumulative_return.reverse() });
+          setAccumChart({ ...accumChart, data: accumulative_return });
           setOptionsColumnChart_1({
             ...optionsColumnChart_1,
-            xaxis: { categories: xvalue_all.reverse() },
+            xaxis: { categories: xvalue_all },
           });
           setOptionsChart_2({
             ...optionsChart_2,
@@ -169,9 +171,9 @@ export default function Dashboard() {
             },
           });
           setProfitFactor(avg_profit_factor);
-          setProfitChart({ ...profitChart, data: profit_factor.reverse() });
+          setProfitChart({ ...profitChart, data: profit_factor });
           setAvgReturnTotal(avg_return_total);
-          setAvgReturnChart({ ...avgReturnChart, data: avg_return.reverse() });
+          setAvgReturnChart({ ...avgReturnChart, data: avg_return });
           setWinRatio((win_ratio.winning * 100) / win_ratio.total);
           setWinRatioDonutChart([
             win_ratio.winning,
@@ -183,12 +185,12 @@ export default function Dashboard() {
           setPnlChange(pnl_change);
           setPnlDay(pnl_day);
           setVolumeDay(volume_day);
-          setTotalPnl({ ...totalPnl, data: total_pnl.reverse() });
-          setDailylPnl({ ...dailyPnl, data: daily_pnl.reverse() });
-          setDailyVolume({ ...dailyVolume, data: daily_volume.reverse() });
-          setTotalWinRate({ ...totalWinRate, data: total_win_rate.reverse() });
-          setDailyWinRate({ ...dailyWinRate, data: daily_win_rate.reverse() });
-          setScore({ ...score, data: total_win_or_loss_score.reverse() });
+          setTotalPnl({ ...totalPnl, data: total_pnl });
+          setDailylPnl({ ...dailyPnl, data: daily_pnl });
+          setDailyVolume({ ...dailyVolume, data: daily_volume });
+          setTotalWinRate({ ...totalWinRate, data: total_win_rate });
+          setDailyWinRate({ ...dailyWinRate, data: daily_win_rate });
+          setScore({ ...score, data: total_win_or_loss_score });
           enqueueSnackbar(`Calculation with ${xvalue_all.length} trades done`, {
             variant: "success",
           });

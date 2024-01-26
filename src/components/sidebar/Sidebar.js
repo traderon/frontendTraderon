@@ -14,7 +14,7 @@ import ExpandMore from "@mui/icons-material/ExpandMore";
 import Popover from "@mui/material/Popover";
 
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import DataUsageIcon from "@mui/icons-material/DataUsage";
+// import DataUsageIcon from "@mui/icons-material/DataUsage";
 import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 import ManageHistoryIcon from "@mui/icons-material/ManageHistory";
 import InsightsIcon from "@mui/icons-material/Insights";
@@ -33,7 +33,7 @@ const Sidebar = () => {
   const dispatch = useDispatch();
   const [open, setOpen] = useState({
     trade: false,
-    reports: false,
+    // reports: false,
     performance: false,
     addTrades: false,
     config: false,
@@ -41,7 +41,7 @@ const Sidebar = () => {
   const [openp, setOpenp] = useState(false);
 
   const [anchorEl, setAnchorEl] = useState(null);
-  const [anchorE2, setAnchorE2] = useState(null);
+  // const [anchorE2, setAnchorE2] = useState(null);
   const [anchorE3, setAnchorE3] = useState(null);
   const [anchorE4, setAnchorE4] = useState(null);
   const [anchorE5, setAnchorE5] = useState(null);
@@ -51,29 +51,29 @@ const Sidebar = () => {
   const [anchorE9, setAnchorE9] = useState(null);
   const [anchorE10, setAnchorE10] = useState(null);
 
-  const subReports = [
-    "Overview",
-    "Hourly",
-    "Weekly",
-    "Monthly",
-    "Entry Price",
-    "Volumn",
-    "Symbols",
-    "Setups",
-    "Mistakes",
-    "Sector",
-    "Change Percent",
-    "Volumn Change",
-    "HoldTime",
-    "Distribution by Year",
-    "Side",
-    "Spread",
-    "Position MFE",
-    "Position MAE",
-    "R Multiple",
-    "Best Exit PnL",
-    "Best Exit %",
-  ];
+  // const subReports = [
+  //   "Overview",
+  //   "Hourly",
+  //   "Weekly",
+  //   "Monthly",
+  //   "Entry Price",
+  //   "Volumn",
+  //   "Symbols",
+  //   "Setups",
+  //   "Mistakes",
+  //   "Sector",
+  //   "Change Percent",
+  //   "Volumn Change",
+  //   "HoldTime",
+  //   "Distribution by Year",
+  //   "Side",
+  //   "Spread",
+  //   "Position MFE",
+  //   "Position MAE",
+  //   "R Multiple",
+  //   "Best Exit PnL",
+  //   "Best Exit %",
+  // ];
   const subTrades = ["Trades", "Journal"];
   const subperf = ["Evaluator", "Simulator", "Management", "Calendar"];
   const subAdd = [
@@ -140,7 +140,7 @@ const Sidebar = () => {
               />
             </ListItemButton>
 
-            <ListItemButton
+            {/* <ListItemButton
               onClick={() => {
                 setOpen({
                   trade: false,
@@ -170,7 +170,7 @@ const Sidebar = () => {
                   </ListItemButton>
                 ))}
               </List>
-            </Collapse>
+            </Collapse> */}
 
             <ListItemButton
               onClick={() => {
@@ -469,7 +469,7 @@ const Sidebar = () => {
               </List>
             </Popover>
 
-            <ListItemButton
+            {/* <ListItemButton
               onClick={(event) => {
                 setAnchorE2(event.currentTarget);
               }}
@@ -499,7 +499,7 @@ const Sidebar = () => {
                 component="div"
                 disablePadding
                 sx={{ bgcolor: "#0094b6", color: "white" }}
-              >
+              >                
                 <ListItemButton>
                   <ListItemText primary="Reports" />
                 </ListItemButton>
@@ -514,7 +514,7 @@ const Sidebar = () => {
                   </ListItemButton>
                 ))}
               </List>
-            </Popover>
+            </Popover> */}
 
             <ListItemButton
               onClick={(event) => {
