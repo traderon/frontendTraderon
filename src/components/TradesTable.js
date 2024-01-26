@@ -18,6 +18,7 @@ import MainLayout from "../layouts/full/mainlayout";
 import TradeTable from "./subcomp/TradeTable";
 import isEmpty from "../validation/isEmpty";
 import Spinner from "./common/Spinner";
+import ReportsOverview from "./reports/reports-overview";
 
 import { getTradesFromDatabase } from "../actions/tradesActions";
 
@@ -92,6 +93,9 @@ export default function TradesTable() {
     }
   }, [filters, trades]);
 
+  const [reportShow, setReportShow] = useState(false);
+  const [selectedTrades, setSelectedTrades] = useState([]);
+
   return (
     <MainLayout title="Trades Table">
       {trades.loading ? (
@@ -112,39 +116,43 @@ export default function TradesTable() {
               <Button
                 variant="outlined"
                 endIcon={<ExpandMoreIcon />}
+                size="small"
                 onClick={(e) => {
                   setAnchorEl(e.currentTarget);
                   setSelectedFilter("broker");
                 }}
-                sx={{ m: 0.5 }}
+                sx={{ m: 0.5, width: 135, justifyContent: "space-between" }}
               >
                 broker
               </Button>
               <Button
                 variant="outlined"
                 endIcon={<ExpandMoreIcon />}
+                size="small"
                 onClick={(e) => {
                   setAnchorEl(e.currentTarget);
                   setSelectedFilter("symbol");
                 }}
-                sx={{ m: 0.5 }}
+                sx={{ m: 0.5, width: 142, justifyContent: "space-between" }}
               >
                 symbol
               </Button>
               <Button
                 variant="outlined"
                 endIcon={<ExpandMoreIcon />}
+                size="small"
                 onClick={(e) => {
                   setAnchorEl(e.currentTarget);
                   setSelectedFilter("status");
                 }}
-                sx={{ m: 0.5 }}
+                sx={{ m: 0.5, width: 135, justifyContent: "space-between" }}
               >
                 win/loss
               </Button>
               <Button
-                variant="outlined"
+                variant="contained"
                 color="error"
+                size="small"
                 onClick={() =>
                   setFilters({ brokers: [], symbols: [], statue: [] })
                 }
@@ -165,7 +173,7 @@ export default function TradesTable() {
                   horizontal: "right",
                 }}
               >
-                <Stack p={1} minWidth={100}>
+                <Stack p={1} width={120} maxHeight={500}>
                   {selectedFilter === "broker"
                     ? brokerFilters.map((broker, index) => (
                         <FormControlLabel
@@ -173,6 +181,7 @@ export default function TradesTable() {
                           control={
                             <Checkbox
                               checked={filters.brokers.includes(broker)}
+                              size="small"
                               onChange={() => {
                                 const checked = filters.brokers.includes(broker)
                                   ? filters.brokers.filter(
@@ -183,7 +192,18 @@ export default function TradesTable() {
                               }}
                             />
                           }
-                          label={broker}
+                          label={
+                            <Typography
+                              variant="body2"
+                              color={
+                                filters.brokers.includes(broker)
+                                  ? "#0094b6"
+                                  : "black"
+                              }
+                            >
+                              {broker}
+                            </Typography>
+                          }
                         />
                       ))
                     : selectedFilter === "symbol"
@@ -193,6 +213,7 @@ export default function TradesTable() {
                           control={
                             <Checkbox
                               checked={filters.symbols.includes(symbol)}
+                              size="small"
                               onChange={() => {
                                 const checked = filters.symbols.includes(symbol)
                                   ? filters.symbols.filter(
@@ -203,7 +224,18 @@ export default function TradesTable() {
                               }}
                             />
                           }
-                          label={symbol}
+                          label={
+                            <Typography
+                              variant="body2"
+                              color={
+                                filters.symbols.includes(symbol)
+                                  ? "#0094b6"
+                                  : "black"
+                              }
+                            >
+                              {symbol}
+                            </Typography>
+                          }
                         />
                       ))
                     : statusFilters.map((status, index) => (
@@ -212,6 +244,7 @@ export default function TradesTable() {
                           control={
                             <Checkbox
                               checked={filters.statue.includes(status)}
+                              size="small"
                               onChange={() => {
                                 const checked = filters.statue.includes(status)
                                   ? filters.statue.filter(
@@ -222,7 +255,18 @@ export default function TradesTable() {
                               }}
                             />
                           }
-                          label={status}
+                          label={
+                            <Typography
+                              variant="body2"
+                              color={
+                                filters.statue.includes(status)
+                                  ? "#0094b6"
+                                  : "black"
+                              }
+                            >
+                              {status}
+                            </Typography>
+                          }
                         />
                       ))}
                 </Stack>
@@ -244,7 +288,8 @@ export default function TradesTable() {
                         variant="caption"
                         borderRadius={5}
                         align="center"
-                        p={0.5}
+                        py={0.5}
+                        px={1}
                         mr={0.5}
                         bgcolor="primary.main"
                         color="white"
@@ -266,7 +311,8 @@ export default function TradesTable() {
                         variant="caption"
                         borderRadius={5}
                         align="center"
-                        p={0.5}
+                        py={0.5}
+                        px={1}
                         mr={0.5}
                         bgcolor="primary.main"
                         color="white"
@@ -288,7 +334,8 @@ export default function TradesTable() {
                         variant="caption"
                         borderRadius={5}
                         align="center"
-                        p={0.5}
+                        py={0.5}
+                        px={1}
                         mr={0.5}
                         bgcolor="primary.main"
                         color="white"
@@ -301,7 +348,18 @@ export default function TradesTable() {
               </Box>
             )}
           </Card>
-          <TradeTable dataToDisplay={tableData} />
+          <Button
+            variant="contained"
+            sx={{ width: 150 }}
+            onClick={() => setReportShow(!reportShow)}
+          >
+            {reportShow ? "Hide" : "Show"} Report
+          </Button>
+          {reportShow && <ReportsOverview selected={selectedTrades} />}
+          <TradeTable
+            dataToDisplay={tableData}
+            tradeSelect={setSelectedTrades}
+          />
         </Stack>
       )}
 
