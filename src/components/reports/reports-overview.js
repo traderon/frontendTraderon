@@ -175,6 +175,7 @@ export default function ReportsOverview({ selected }) {
   });
   const [biggestProfitT, setBiggestProfitT] = useState(0);
   const [biggestLoseT, setBiggestLoseT] = useState(0);
+  const [winLoseRatio, setWinLoseRatio] = useState(1);
 
   useEffect(() => {
     (async () => {
@@ -273,6 +274,7 @@ export default function ReportsOverview({ selected }) {
           });
           setBiggestProfitT(biggestProfit);
           setBiggestLoseT(biggestLose);
+          setWinLoseRatio(returnWin.length / returnLose.length);
         })
         .catch((err) => console.log(err));
       setIsLoading(false);
@@ -449,10 +451,7 @@ export default function ReportsOverview({ selected }) {
               <Typography>Profit / Loss Ratio</Typography>
               <Typography variant="h5" mb={1}>
                 <b>
-                  {(
-                    returnOnWinnersChart.data.length /
-                    returnOnLosersChart.data.length
-                  ).toFixed(1)}
+                  {winLoseRatio.toFixed(2)}
                   :1
                 </b>
               </Typography>
