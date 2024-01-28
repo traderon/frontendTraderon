@@ -176,6 +176,37 @@ export default function ReportsOverview({ selected }) {
   const [biggestProfitT, setBiggestProfitT] = useState(0);
   const [biggestLoseT, setBiggestLoseT] = useState(0);
   const [winLoseRatio, setWinLoseRatio] = useState(1);
+  const [closedTradesTotal, setClosedTradesTotal] = useState(0);
+  const [closedTradesChart, setClosedTradesChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [openTradesTotal, setOpenTradesTotal] = useState(0);
+  const [openTradesChart, setOpenTradesChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [allTradesTotal, setAllTradesTotal] = useState(0);
+  const [allTradesChart, setAllTradesChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [avgNumTrades, setAvgNumTrades] = useState(0);
+  const [totalWin, setTotalWin] = useState(0);
+  const [totalLoss, setTotalLoss] = useState(0);
+  const [totalWinChart, setTotalWinChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [totalLossChart, setTotalLossChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
 
   useEffect(() => {
     (async () => {
@@ -199,6 +230,16 @@ export default function ReportsOverview({ selected }) {
             returnShortTotal,
             biggestProfit,
             biggestLose,
+            totalClosedTrades,
+            closedTrades,
+            totalOpenTrades,
+            openTrades,
+            totalTrades,
+            dailyTrades,
+            totalWinner,
+            totalLoser,
+            dailyWinners,
+            dailyLosers,
           } = res.data;
           setAccumTotal(totalReturn);
           setAccumTotalChart({
@@ -275,6 +316,47 @@ export default function ReportsOverview({ selected }) {
           setBiggestProfitT(biggestProfit);
           setBiggestLoseT(biggestLose);
           setWinLoseRatio(returnWin.length / returnLose.length);
+          setClosedTradesTotal(totalClosedTrades);
+          setAllTradesTotal(totalTrades);
+          setOpenTradesTotal(totalOpenTrades);
+          setClosedTradesChart({
+            ...closedTradesChart,
+            data:
+              closedTrades.length > 100
+                ? arrayFilter(closedTrades, 100)
+                : closedTrades,
+          });
+          setAllTradesChart({
+            ...allTradesChart,
+            data:
+              dailyTrades.length > 100
+                ? arrayFilter(dailyTrades, 100)
+                : dailyTrades,
+          });
+          setOpenTradesChart({
+            ...openTradesChart,
+            data:
+              openTrades.length > 100
+                ? arrayFilter(openTrades, 100)
+                : openTrades,
+          });
+          setAvgNumTrades(totalTrades / totalDates.length);
+          setTotalWin(totalWinner);
+          setTotalWinChart({
+            ...totalWinChart,
+            data:
+              dailyWinners.length > 100
+                ? arrayFilter(dailyWinners, 100)
+                : dailyWinners,
+          });
+          setTotalLoss(totalLoser);
+          setTotalLossChart({
+            ...totalLossChart,
+            data:
+              dailyLosers.length > 100
+                ? arrayFilter(dailyLosers, 100)
+                : dailyLosers,
+          });
         })
         .catch((err) => console.log(err));
       setIsLoading(false);
@@ -322,7 +404,7 @@ export default function ReportsOverview({ selected }) {
           </Grid>
           <Grid item xs={12} md={6} lg={3}>
             <Paper sx={{ p: 2 }}>
-              <Typography>Accumulative Return $</Typography>
+              <Typography>Accumulative Return Net $</Typography>
               <Typography variant="h5" mb={1}>
                 <b>{accumTotal.toFixed(2)}</b>
               </Typography>
@@ -456,6 +538,113 @@ export default function ReportsOverview({ selected }) {
                 </b>
               </Typography>
               <Stack height={50} />
+            </Paper>
+          </Grid>
+          <Grid item xs={12}>
+            <Typography variant="h6" sx={{ mt: 1, mb: -1 }}>
+              <b>Return %</b>
+            </Typography>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Win %</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{((winLoseRatio * 100) / (winLoseRatio + 1)).toFixed(2)}</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Loss %</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>
+                  {(100 - (winLoseRatio * 100) / (winLoseRatio + 1)).toFixed(2)}
+                </b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12}>
+            <Typography variant="h6" sx={{ mt: 1, mb: -1 }}>
+              <b>Trades</b>
+            </Typography>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Total Closed Trades</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{closedTradesTotal}</b>
+              </Typography>
+              <Chart
+                options={optionChart2}
+                series={[closedTradesChart]}
+                type="area"
+                height={50}
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Total Trades</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{allTradesTotal}</b>
+              </Typography>
+              <Chart
+                options={optionChart2}
+                series={[allTradesChart]}
+                type="area"
+                height={50}
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Total Open Trades</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{openTradesTotal}</b>
+              </Typography>
+              <Chart
+                options={optionChart2}
+                series={[openTradesChart]}
+                type="area"
+                height={50}
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Avg Num Trades</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{avgNumTrades.toFixed(2)}</b>
+              </Typography>
+              <Stack height={50} />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Total Winner</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{totalWin}</b>
+              </Typography>
+              <Chart
+                options={optionChart2}
+                series={[totalWinChart]}
+                type="area"
+                height={50}
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Total Losers</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{totalLoss}</b>
+              </Typography>
+              <Chart
+                options={optionChart2}
+                series={[totalLossChart]}
+                type="area"
+                height={50}
+              />
             </Paper>
           </Grid>
         </Grid>
