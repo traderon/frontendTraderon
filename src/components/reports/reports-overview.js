@@ -37,7 +37,7 @@ export default function ReportsOverview({ selected }) {
     }
   }, [expired, navigate, enqueueSnackbar]);
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [optionColumnChart, setOptionColumnChart] = useState({
     chart: {
       type: "bar",
@@ -207,6 +207,13 @@ export default function ReportsOverview({ selected }) {
     color: "#0094b6",
     data: [],
   });
+  const [beTotal, setBeTotal] = useState(0);
+  const [totalBeChart, setTotalBeChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [openPercent, setOpenPercent] = useState(0);
 
   useEffect(() => {
     (async () => {
@@ -240,6 +247,8 @@ export default function ReportsOverview({ selected }) {
             totalLoser,
             dailyWinners,
             dailyLosers,
+            beCount,
+            dailyBe,
           } = res.data;
           setAccumTotal(totalReturn);
           setAccumTotalChart({
@@ -262,24 +271,24 @@ export default function ReportsOverview({ selected }) {
             ...optionChart1,
             xaxis: {
               categories:
-                totalReturnX.length > 100
-                  ? arrayFilter(totalReturnX, 100)
+                totalReturnX.length > 200
+                  ? arrayFilter(totalReturnX, 200)
                   : totalReturnX,
             },
           });
           setDailyReturnC({
             ...dailyReturnC,
             data:
-              dailyReturn.length > 100
-                ? arrayFilter(dailyReturn, 100)
+              dailyReturn.length > 200
+                ? arrayFilter(dailyReturn, 200)
                 : dailyReturn,
           });
           setOptionChart2({
             ...optionChart2,
             xaxis: {
               categories:
-                totalDates.length > 100
-                  ? arrayFilter(totalDates, 100)
+                totalDates.length > 200
+                  ? arrayFilter(totalDates, 200)
                   : totalDates,
             },
           });
@@ -287,30 +296,30 @@ export default function ReportsOverview({ selected }) {
           setReturnOnWinnersChart({
             ...returnOnWinnersChart,
             data:
-              returnWin.length > 100 ? arrayFilter(returnWin, 100) : returnWin,
+              returnWin.length > 200 ? arrayFilter(returnWin, 200) : returnWin,
           });
           setReturnOnLosersTotal(returnLoseTotal);
           setReturnOnLosersChart({
             ...returnOnLosersChart,
             data:
-              returnLose.length > 100
-                ? arrayFilter(returnLose, 100)
+              returnLose.length > 200
+                ? arrayFilter(returnLose, 200)
                 : returnLose,
           });
           setReturnLongTotal(returnLongTotal);
           setReturnLongChart({
             ...returnLongChart,
             data:
-              returnLong.length > 100
-                ? arrayFilter(returnLong, 100)
+              returnLong.length > 200
+                ? arrayFilter(returnLong, 200)
                 : returnLong,
           });
           setReturnShortTotal(returnShortTotal);
           setReturnShortChart({
             ...returnShortChart,
             data:
-              returnShort.length > 100
-                ? arrayFilter(returnShort, 100)
+              returnShort.length > 200
+                ? arrayFilter(returnShort, 200)
                 : returnShort,
           });
           setBiggestProfitT(biggestProfit);
@@ -322,22 +331,22 @@ export default function ReportsOverview({ selected }) {
           setClosedTradesChart({
             ...closedTradesChart,
             data:
-              closedTrades.length > 100
-                ? arrayFilter(closedTrades, 100)
+              closedTrades.length > 200
+                ? arrayFilter(closedTrades, 200)
                 : closedTrades,
           });
           setAllTradesChart({
             ...allTradesChart,
             data:
-              dailyTrades.length > 100
-                ? arrayFilter(dailyTrades, 100)
+              dailyTrades.length > 200
+                ? arrayFilter(dailyTrades, 200)
                 : dailyTrades,
           });
           setOpenTradesChart({
             ...openTradesChart,
             data:
-              openTrades.length > 100
-                ? arrayFilter(openTrades, 100)
+              openTrades.length > 200
+                ? arrayFilter(openTrades, 200)
                 : openTrades,
           });
           setAvgNumTrades(totalTrades / totalDates.length);
@@ -345,18 +354,24 @@ export default function ReportsOverview({ selected }) {
           setTotalWinChart({
             ...totalWinChart,
             data:
-              dailyWinners.length > 100
-                ? arrayFilter(dailyWinners, 100)
+              dailyWinners.length > 200
+                ? arrayFilter(dailyWinners, 200)
                 : dailyWinners,
           });
           setTotalLoss(totalLoser);
           setTotalLossChart({
             ...totalLossChart,
             data:
-              dailyLosers.length > 100
-                ? arrayFilter(dailyLosers, 100)
+              dailyLosers.length > 200
+                ? arrayFilter(dailyLosers, 200)
                 : dailyLosers,
           });
+          setBeTotal((beCount * 100) / totalTrades);
+          setTotalBeChart({
+            ...totalBeChart,
+            data: dailyBe.length > 200 ? arrayFilter(dailyBe, 200) : dailyBe,
+          });
+          setOpenPercent((totalOpenTrades * 100) / totalTrades);
         })
         .catch((err) => console.log(err));
       setIsLoading(false);
@@ -563,6 +578,62 @@ export default function ReportsOverview({ selected }) {
               </Typography>
             </Paper>
           </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>BE %</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{beTotal.toFixed(2)}</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Open %</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{openPercent.toFixed(2)}</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Accumulative Return %</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Accumulative Return Net %</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Biggest % Profit</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Biggest % Loser</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Return per Share</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
           <Grid item xs={12}>
             <Typography variant="h6" sx={{ mt: 1, mb: -1 }}>
               <b>Trades</b>
@@ -645,6 +716,44 @@ export default function ReportsOverview({ selected }) {
                 type="area"
                 height={50}
               />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Total BE</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>{beTotal}</b>
+              </Typography>
+              <Chart
+                options={optionChart2}
+                series={[totalBeChart]}
+                type="area"
+                height={50}
+              />
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Profit Factor</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Max Consec. Win</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <Paper sx={{ p: 2 }}>
+              <Typography>Max Consec. Loss</Typography>
+              <Typography variant="h5" mb={1}>
+                <b>TODO</b>
+              </Typography>
             </Paper>
           </Grid>
         </Grid>
