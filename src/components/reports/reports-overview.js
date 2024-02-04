@@ -68,7 +68,7 @@ export default function ReportsOverview({ selected }) {
     yaxis: {
       labels: {
         formatter: function (y) {
-          return (y / 1000).toFixed(1) + "k";
+          return y.toFixed(2);
         },
       },
     },
