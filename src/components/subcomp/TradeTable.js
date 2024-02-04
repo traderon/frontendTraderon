@@ -37,6 +37,8 @@ function createData(
   entry,
   exit,
   size,
+  pips,
+  returnPips,
   return1,
   return2,
   side,
@@ -52,6 +54,8 @@ function createData(
     entry,
     exit,
     size,
+    pips,
+    returnPips,
     return1,
     return2,
     side,
@@ -174,6 +178,18 @@ const headCells = [
     label: "SIZE",
   },
   {
+    id: "pips",
+    numeric: true,
+    disablePadding: true,
+    label: "PIPS",
+  },
+  {
+    id: "returnPips",
+    numeric: true,
+    disablePadding: true,
+    label: "RETURN / PIPS",
+  },
+  {
     id: "return1",
     numeric: true,
     disablePadding: true,
@@ -258,15 +274,6 @@ function EnhancedTableHead(props) {
   );
 }
 
-EnhancedTableHead.propTypes = {
-  numSelected: PropTypes.number.isRequired,
-  onRequestSort: PropTypes.func.isRequired,
-  onSelectAllClick: PropTypes.func.isRequired,
-  order: PropTypes.oneOf(["asc", "desc"]).isRequired,
-  orderBy: PropTypes.string.isRequired,
-  rowCount: PropTypes.number.isRequired,
-};
-
 function EnhancedTableToolbar(props) {
   const { numSelected } = props;
 
@@ -349,11 +356,13 @@ export default function EnhancedTable(props) {
           parseFloat(tdata.entry),
           tdata.exit === null ? 0 : parseFloat(tdata.exit),
           Math.abs(parseFloat(tdata.size)),
+          Math.abs(parseFloat(tdata.pips)),
+          parseFloat(tdata.returnPips),
           parseFloat(tdata.return),
           parseFloat(tdata.return),
           tdata.side,
-          tdata.setups,
-          tdata.mistakes ? tdata.mistakes : "",
+          tdata.setups ? tdata.setups : [],
+          tdata.mistakes ? tdata.mistakes : [],
           tdata.subs ? tdata.subs : []
         );
       })
@@ -569,6 +578,20 @@ export default function EnhancedTable(props) {
                             ? null
                             : row.size.toFixed(2)}
                         </TableCell>
+                        <TableCell padding="none" align="left">
+                          {row.pips.toFixed(1)}
+                        </TableCell>
+                        <TableCell
+                          padding="none"
+                          align="left"
+                          sx={
+                            row.returnPips < 0
+                              ? { color: "orangered" }
+                              : { color: "darkgreen" }
+                          }
+                        >
+                          {row.returnPips.toFixed(8)}
+                        </TableCell>
                         <TableCell
                           padding="none"
                           scope="row"
@@ -622,48 +645,43 @@ export default function EnhancedTable(props) {
                           )}
                         </TableCell>
                         <TableCell scope="row" padding="none" align="left">
-                          {row.setups ? (
-                            row.status === "WIN" ? null : (
-                              <Stack direction="row" spacing={1}>
-                                {row.setups.map((setup, i) => (
-                                  <Typography
-                                    key={i}
-                                    bgcolor="lightgreen"
-                                    color="black"
-                                    textAlign="center"
-                                    fontSize={12}
-                                    borderRadius={1}
-                                  >
-                                    {setup}
-                                  </Typography>
-                                ))}
-                              </Stack>
-                            )
-                          ) : null}
-                        </TableCell>
-                        <TableCell
-                          component="th"
-                          scope="row"
-                          padding="none"
-                          align="left"
-                        >
-                          {row.status === "WIN" ? null : (
+                          {row.setups.length > 0 ? (
                             <Stack direction="row" spacing={1}>
-                              {row.mistakes
-                                ? row.mistakes.map((setup, i) => (
-                                    <Typography
-                                      key={i}
-                                      bgcolor="lightpink"
-                                      color="black"
-                                      textAlign="center"
-                                      fontSize={12}
-                                      borderRadius={1}
-                                    >
-                                      {setup}
-                                    </Typography>
-                                  ))
-                                : null}
+                              {row.setups.map((setup, i) => (
+                                <Typography
+                                  key={i}
+                                  bgcolor="lightgreen"
+                                  color="black"
+                                  textAlign="center"
+                                  fontSize={12}
+                                  borderRadius={1}
+                                >
+                                  {setup}
+                                </Typography>
+                              ))}
                             </Stack>
+                          ) : (
+                            ""
+                          )}
+                        </TableCell>
+                        <TableCell scope="row" padding="none" align="left">
+                          {row.mistakes.length > 0 ? (
+                            <Stack direction="row" spacing={1}>
+                              {row.mistakes.map((mistake, i) => (
+                                <Typography
+                                  key={i}
+                                  bgcolor="lightpink"
+                                  color="black"
+                                  textAlign="center"
+                                  fontSize={12}
+                                  borderRadius={1}
+                                >
+                                  {mistake}
+                                </Typography>
+                              ))}
+                            </Stack>
+                          ) : (
+                            ""
                           )}
                         </TableCell>
                       </TableRow>
