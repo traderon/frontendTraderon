@@ -31,6 +31,7 @@ import Fade from "@mui/material/Fade";
 
 function createData(
   id,
+  accountId,
   status,
   opendate,
   symbol,
@@ -48,6 +49,7 @@ function createData(
 ) {
   return {
     id,
+    accountId,
     status,
     opendate,
     symbol,
@@ -141,6 +143,12 @@ function stableSort(array, comparator) {
 }
 
 const headCells = [
+  {
+    id: "account",
+    numeric: false,
+    disablePadding: true,
+    label: "ACCOUNT ID",
+  },
   {
     id: "status",
     numeric: false,
@@ -350,6 +358,7 @@ export default function EnhancedTable(props) {
       props.dataToDisplay.map((tdata) => {
         return createData(
           tdata.id,
+          tdata.accountId,
           tdata.status,
           tdata.openDate.slice(0, 10),
           tdata.symbol,
@@ -513,6 +522,9 @@ export default function EnhancedTable(props) {
                               )
                             ) : null}
                           </IconButton>
+                        </TableCell>
+                        <TableCell scope="row" padding="none" align="left">
+                          {row.accountId}
                         </TableCell>
                         <TableCell
                           id={labelId}
