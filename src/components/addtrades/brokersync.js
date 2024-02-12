@@ -27,7 +27,7 @@ import Button from "@mui/material/Button";
 import MainLayout from "../../layouts/full/mainlayout";
 import Spinner from "../common/Spinner";
 
-const brokers = ["Oanda"];
+const brokers = ["Oanda","Metatrader"];
 const dataRanges = ["All Trades", "Latest Trades"];
 const timezones = ["DO NOT CONVERT"];
 
