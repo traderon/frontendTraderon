@@ -2,31 +2,18 @@ import axios from "axios";
 import { TRADES_LOADING, GET_TRADES, CLEAR_ERRORS } from "./types";
 
 export const getTradesData =
-  (
-    userId,
-    accountId,
-    accessToken,
-    dataRange,
-    timezone,
-    brokerName,
-    navigate,
-    enqueueSnackbar
-  ) =>
-  (dispatch) => {
+  (parameters, navigate, enqueueSnackbar) => (dispatch) => {
     dispatch(setTradesLoading());
     axios
-      .post("/api/import_trades", {
-        broker: brokerName,
-        key: accessToken,
-        id: accountId,
-        user: userId,
-      })
+      .post("/api/import_trades", parameters)
       .then((res) => {
         enqueueSnackbar("Successfully imported", {
           variant: "success",
         });
         dispatch({ type: CLEAR_ERRORS });
-        dispatch(getTradesFromDatabase({ user: userId }, enqueueSnackbar));
+        dispatch(
+          getTradesFromDatabase({ user: parameters.user }, enqueueSnackbar)
+        );
         navigate("/tradestable");
       })
       .catch((err) => {
@@ -34,7 +21,9 @@ export const getTradesData =
           variant: "error",
         });
         dispatch({ type: CLEAR_ERRORS });
-        dispatch(getTradesFromDatabase({ user: userId }, enqueueSnackbar));
+        dispatch(
+          getTradesFromDatabase({ user: parameters.user }, enqueueSnackbar)
+        );
         navigate("/tradestable");
       });
   };

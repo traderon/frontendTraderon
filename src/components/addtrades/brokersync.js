@@ -27,9 +27,14 @@ import Button from "@mui/material/Button";
 import MainLayout from "../../layouts/full/mainlayout";
 import Spinner from "../common/Spinner";
 
-const brokers = ["Oanda","Metatrader"];
+const brokers = ["Oanda", "Metatrader"];
+// oanda
 const dataRanges = ["All Trades", "Latest Trades"];
 const timezones = ["DO NOT CONVERT"];
+// metatrader
+const metatraderTypes = ["mt4", "mt5"];
+const metatraderBrokers = ["GrowthNext"];
+const metatraderServers = ["GrowthNext-Server"];
 
 export default function BrokerSync() {
   const dispatch = useDispatch();
@@ -49,10 +54,17 @@ export default function BrokerSync() {
   const loading = useSelector((store) => store.trades.loading);
 
   const [broker, setBroker] = useState("");
+  // oanda
   const [apiKey, setApiKey] = useState("");
   const [accountId, setAccountId] = useState("");
   const [dataRange, setDataRange] = useState("Latest Trades");
   const [timezone, setTimezone] = useState("DO NOT CONVERT");
+  // metatrader
+  const [mtValue, setMtValue] = useState("");
+  const [mtLoginId, setMtLoginId] = useState("");
+  const [mtPassword, setMtPassword] = useState("");
+  const [mtBroker, setMtBroker] = useState("");
+  const [mtServer, setMtServer] = useState("");
 
   const [settings, setSettings] = useState("");
 
@@ -66,7 +78,251 @@ export default function BrokerSync() {
     setAccountId("");
     setDataRange("Latest Trades");
     setTimezone("DO NOT CONVERT");
+    setMtValue("");
+    setMtLoginId("");
+    setMtPassword("");
+    setMtBroker("");
+    setMtServer("");
   };
+
+  const renderOanda = (
+    <>
+      <DialogContent dividers>
+        <Stack direction="column" spacing={2} p={1}>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Enter Api Key</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <TextField
+                fullWidth
+                value={apiKey}
+                onChange={(e) => setApiKey(e.target.value)}
+              />
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Enter account number ID</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <TextField
+                fullWidth
+                value={accountId}
+                onChange={(e) => setAccountId(e.target.value)}
+              />
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Select the data range to import</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <FormControl fullWidth>
+                <Select
+                  labelId="datarange"
+                  value={dataRange}
+                  onChange={(e) => setDataRange(e.target.value)}
+                >
+                  {dataRanges.map((dataRange, index) => (
+                    <MenuItem key={index} value={dataRange}>
+                      {dataRange}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Select Timezone</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <FormControl fullWidth>
+                <Select
+                  labelId="timezone"
+                  value={timezone}
+                  onChange={(e) => setTimezone(e.target.value)}
+                >
+                  {timezones.map((timezone, index) => (
+                    <MenuItem key={index} value={timezone}>
+                      {timezone}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          </Grid>
+          <Stack spacing={0.5} color="dimgrey">
+            <Typography>
+              <b>Instructions:</b>
+            </Typography>
+            <Typography>
+              1. Paste that code in the box above and click on "Connect
+            </Typography>
+            <Typography pl={2}>
+              Note: You can get the API code by logging into your account,
+              navigating to "My account" and then click on "Manage API access"
+              and generate the API code.
+            </Typography>
+          </Stack>
+        </Stack>
+      </DialogContent>
+      <DialogActions>
+        <Button
+          variant="contained"
+          disabled={
+            apiKey.trim().length === 0 ||
+            accountId.trim().length === 0 ||
+            broker.trim().length === 0
+          }
+          sx={{ m: 1, bgcolor: "#0094b6" }}
+          onClick={() => {
+            dispatch(
+              getTradesData(
+                {
+                  broker,
+                  key: apiKey,
+                  id: accountId,
+                  user: userId,
+                },
+                navigate,
+                enqueueSnackbar
+              )
+            );
+            handleDialogClose();
+          }}
+        >
+          Connect
+        </Button>
+      </DialogActions>
+    </>
+  );
+
+  const renderMetatrader = (
+    <>
+      <DialogContent dividers>
+        <Stack spacing={2} p={1}>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Metatrader Type</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <FormControl fullWidth>
+                <Select
+                  value={mtValue}
+                  onChange={(e) => setMtValue(e.target.value)}
+                >
+                  {metatraderTypes.map((type, index) => (
+                    <MenuItem key={index} value={type}>
+                      {type.toUpperCase()}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Enter Metatrader Login</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <TextField
+                fullWidth
+                value={mtLoginId}
+                onChange={(e) => setMtLoginId(e.target.value)}
+              />
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Enter Metatrader Password</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <TextField
+                fullWidth
+                value={mtPassword}
+                onChange={(e) => setMtPassword(e.target.value)}
+              />
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Select Broker</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <FormControl fullWidth>
+                <Select
+                  labelId="datarange"
+                  value={mtBroker}
+                  onChange={(e) => setMtBroker(e.target.value)}
+                >
+                  {metatraderBrokers.map((broker, index) => (
+                    <MenuItem key={index} value={broker}>
+                      {broker}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} alignItems="center">
+            <Grid item xs={12} sm={4}>
+              <Typography>Select Server Namee</Typography>
+            </Grid>
+            <Grid item xs={12} sm={8}>
+              <FormControl fullWidth>
+                <Select
+                  labelId="timezone"
+                  value={mtServer}
+                  disabled={mtBroker.length === 0}
+                  onChange={(e) => setMtServer(e.target.value)}
+                >
+                  {metatraderServers.map((server, index) => (
+                    <MenuItem key={index} value={server}>
+                      {server}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
+          </Grid>
+        </Stack>
+      </DialogContent>
+      <DialogActions>
+        <Button
+          variant="contained"
+          disabled={
+            mtValue.trim().length === 0 ||
+            mtLoginId.trim().length === 0 ||
+            mtPassword.trim().length === 0 ||
+            mtBroker.trim().length === 0 ||
+            mtServer.trim().length === 0
+          }
+          sx={{ m: 1, bgcolor: "#0094b6" }}
+          onClick={() => {
+            dispatch(
+              getTradesData(
+                {
+                  broker,
+                  user: userId,
+                  id: mtLoginId,
+                  password: mtPassword,
+                  mtType: mtValue,
+                  passphrase: mtServer,
+                },
+                navigate,
+                enqueueSnackbar
+              )
+            );
+            handleDialogClose();
+          }}
+        >
+          Connect
+        </Button>
+      </DialogActions>
+    </>
+  );
 
   return (
     <MainLayout title="Broker Synchronization">
@@ -188,115 +444,8 @@ export default function BrokerSync() {
         >
           <CloseIcon />
         </IconButton>
-        <DialogContent dividers>
-          <Stack direction="column" spacing={2} p={1}>
-            <Grid container spacing={1} alignItems="center">
-              <Grid item xs={12} sm={4}>
-                <Typography>Enter Api Key</Typography>
-              </Grid>
-              <Grid item xs={12} sm={8}>
-                <TextField
-                  fullWidth
-                  value={apiKey}
-                  onChange={(e) => setApiKey(e.target.value)}
-                />
-              </Grid>
-            </Grid>
-            <Grid container spacing={1} alignItems="center">
-              <Grid item xs={12} sm={4}>
-                <Typography>Enter account number ID</Typography>
-              </Grid>
-              <Grid item xs={12} sm={8}>
-                <TextField
-                  fullWidth
-                  value={accountId}
-                  onChange={(e) => setAccountId(e.target.value)}
-                />
-              </Grid>
-            </Grid>
-            <Grid container spacing={1} alignItems="center">
-              <Grid item xs={12} sm={4}>
-                <Typography>Select the data range to import</Typography>
-              </Grid>
-              <Grid item xs={12} sm={8}>
-                <FormControl fullWidth>
-                  <Select
-                    labelId="datarange"
-                    value={dataRange}
-                    onChange={(e) => setDataRange(e.target.value)}
-                  >
-                    {dataRanges.map((dataRange, index) => (
-                      <MenuItem key={index} value={dataRange}>
-                        {dataRange}
-                      </MenuItem>
-                    ))}
-                  </Select>
-                </FormControl>
-              </Grid>
-            </Grid>
-            <Grid container spacing={1} alignItems="center">
-              <Grid item xs={12} sm={4}>
-                <Typography>Select Timezone</Typography>
-              </Grid>
-              <Grid item xs={12} sm={8}>
-                <FormControl fullWidth>
-                  <Select
-                    labelId="timezone"
-                    value={timezone}
-                    onChange={(e) => setTimezone(e.target.value)}
-                  >
-                    {timezones.map((timezone, index) => (
-                      <MenuItem key={index} value={timezone}>
-                        {timezone}
-                      </MenuItem>
-                    ))}
-                  </Select>
-                </FormControl>
-              </Grid>
-            </Grid>
-            <Stack spacing={0.5} color="dimgrey">
-              <Typography>
-                <b>Instructions:</b>
-              </Typography>
-              <Typography>
-                1. Paste that code in the box above and click on "Connect
-              </Typography>
-              <Typography pl={2}>
-                Note: You can get the API code by logging into your account,
-                navigating to "My account" and then click on "Manage API access"
-                and generate the API code.
-              </Typography>
-            </Stack>
-          </Stack>
-        </DialogContent>
-        <DialogActions>
-          <Button
-            variant="contained"
-            disabled={
-              apiKey.trim().length === 0 ||
-              accountId.trim().length === 0 ||
-              broker.trim().length === 0
-            }
-            sx={{ m: 1, bgcolor: "#0094b6" }}
-            onClick={() => {
-              dispatch(
-                getTradesData(
-                  userId,
-                  accountId,
-                  apiKey,
-                  dataRange,
-                  timezone,
-                  broker,
-                  navigate,
-                  enqueueSnackbar
-                )
-              );
-              handleDialogClose();
-            }}
-          >
-            Connect
-          </Button>
-        </DialogActions>
+        {broker === "Oanda" && renderOanda}
+        {broker === "Metatrader" && renderMetatrader}
       </Dialog>
     </MainLayout>
   );

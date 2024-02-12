@@ -591,7 +591,7 @@ export default function EnhancedTable(props) {
                             : row.size.toFixed(2)}
                         </TableCell>
                         <TableCell padding="none" align="left">
-                          {row.pips.toFixed(1)}
+                          {row.pips.toFixed(4)}
                         </TableCell>
                         <TableCell
                           padding="none"
