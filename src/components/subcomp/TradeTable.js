@@ -42,6 +42,7 @@ function createData(
   returnPips,
   return1,
   return2,
+  returnNet,
   side,
   setups,
   mistakes,
@@ -60,6 +61,7 @@ function createData(
     returnPips,
     return1,
     return2,
+    returnNet,
     side,
     setups,
     mistakes,
@@ -208,6 +210,12 @@ const headCells = [
     numeric: true,
     disablePadding: true,
     label: "RETURN %",
+  },
+  {
+    id: "returnNet",
+    numeric: true,
+    disablePadding: true,
+    label: "NET RETURN",
   },
   {
     id: "side",
@@ -369,6 +377,7 @@ export default function EnhancedTable(props) {
           parseFloat(tdata.returnPips),
           parseFloat(tdata.return),
           parseFloat(tdata.return),
+          parseFloat(tdata.returnNet),
           tdata.side,
           tdata.setups ? tdata.setups : [],
           tdata.mistakes ? tdata.mistakes : [],
@@ -591,7 +600,7 @@ export default function EnhancedTable(props) {
                             : row.size.toFixed(2)}
                         </TableCell>
                         <TableCell padding="none" align="left">
-                          {row.pips.toFixed(4)}
+                          {row.pips.toFixed(2)}
                         </TableCell>
                         <TableCell
                           padding="none"
@@ -630,6 +639,19 @@ export default function EnhancedTable(props) {
                           {row.status === "OPEN" || row.return2 === 0
                             ? null
                             : row.return2.toFixed(2)}
+                        </TableCell>
+                        <TableCell
+                          align="left"
+                          padding="none"
+                          sx={
+                            row.returnNet < 0
+                              ? { color: "orangered" }
+                              : { color: "darkgreen" }
+                          }
+                        >
+                          {row.status === "OPEN" || row.return2 === 0
+                            ? null
+                            : row.returnNet.toFixed(2)}
                         </TableCell>
                         <TableCell scope="row" padding="none" align="left">
                           {row.side === "LONG" ? (
