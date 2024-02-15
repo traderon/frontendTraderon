@@ -81,7 +81,7 @@ export default function TradesTable() {
       }
       if (filters.brokers.length > 0) {
         filtered = filtered.filter((trade) =>
-          filters.brokers.includes(trade.broker)
+          filters.brokers.includes(trade.broker + " " + trade.accountId)
         );
       }
       if (filters.symbols.length > 0) {
@@ -173,7 +173,7 @@ export default function TradesTable() {
                   horizontal: "right",
                 }}
               >
-                <Stack p={1} width={120} maxHeight={500}>
+                <Stack p={1} width={185} maxHeight={500}>
                   {selectedFilter === "broker"
                     ? brokerFilters.map((broker, index) => (
                         <FormControlLabel
@@ -201,7 +201,9 @@ export default function TradesTable() {
                                   : "black"
                               }
                             >
-                              {broker}
+                              {broker.split(" ")[0]}
+                              <br />
+                              {broker.split(" ")[1]}
                             </Typography>
                           }
                         />
