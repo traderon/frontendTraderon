@@ -376,7 +376,7 @@ export default function EnhancedTable(props) {
           Math.abs(parseFloat(tdata.pips)),
           parseFloat(tdata.returnPips),
           parseFloat(tdata.return),
-          parseFloat(tdata.return),
+          parseFloat(tdata.returnPercent),
           parseFloat(tdata.returnNet),
           tdata.side,
           tdata.setups ? tdata.setups : [],
@@ -636,9 +636,7 @@ export default function EnhancedTable(props) {
                               : { color: "darkgreen" }
                           }
                         >
-                          {row.status === "OPEN" || row.return2 === 0
-                            ? null
-                            : row.return2.toFixed(2)}
+                          {row.return2.toFixed(2)}
                         </TableCell>
                         <TableCell
                           align="left"
@@ -649,9 +647,7 @@ export default function EnhancedTable(props) {
                               : { color: "darkgreen" }
                           }
                         >
-                          {row.status === "OPEN" || row.return2 === 0
-                            ? null
-                            : row.returnNet.toFixed(2)}
+                          {row.returnNet.toFixed(2)}
                         </TableCell>
                         <TableCell scope="row" padding="none" align="left">
                           {row.side === "LONG" ? (
