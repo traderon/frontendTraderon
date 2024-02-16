@@ -1,5 +1,9 @@
 import React, { Fragment, useEffect } from "react";
 import PropTypes from "prop-types";
+import axios from "axios";
+import { useSelector, useDispatch } from "react-redux";
+import { useSnackbar } from "notistack";
+// mui
 import { alpha } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Table from "@mui/material/Table";
@@ -28,6 +32,9 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import Fade from "@mui/material/Fade";
+import Button from "@mui/material/Button";
+// action
+import { getTradesFromDatabase } from "../../actions/tradesActions";
 
 function createData(
   id,
@@ -291,7 +298,24 @@ function EnhancedTableHead(props) {
 }
 
 function EnhancedTableToolbar(props) {
-  const { numSelected } = props;
+  const { numSelected, selected } = props;
+  const userId = useSelector((store) => store.auth.user.public_id);
+  const { enqueueSnackbar } = useSnackbar();
+  const dispatch = useDispatch();
+
+  const handleDelete = () => {
+    axios
+      .post("/api/delete_trades", { userId: userId, tradeId: selected })
+      .then(() => {
+        enqueueSnackbar(`Deleted ${numSelected} trades`, {
+          variant: "success",
+        });
+        dispatch(getTradesFromDatabase({ user: userId }, enqueueSnackbar));
+      })
+      .catch(() => {
+        enqueueSnackbar("Error occured", { variant: "error" });
+      });
+  };
 
   return (
     <>
@@ -309,14 +333,25 @@ function EnhancedTableToolbar(props) {
         }}
       >
         {numSelected > 0 ? (
-          <Typography
-            sx={{ flex: "1 1 100%" }}
-            color="inherit"
-            variant="subtitle1"
-            component="div"
+          <Stack
+            direction="row"
+            alignItems="center"
+            justifyContent="space-between"
+            spacing={0.5}
+            width={1}
           >
-            {numSelected} trades selected
-          </Typography>
+            <Typography
+              sx={{ flex: "1 1 100%" }}
+              color="inherit"
+              variant="subtitle1"
+              component="div"
+            >
+              {numSelected} trades selected
+            </Typography>
+            <Button variant="contained" color="error" onClick={handleDelete}>
+              Delete
+            </Button>
+          </Stack>
         ) : (
           <Typography
             sx={{ flex: "1 1 100%" }}
@@ -479,7 +514,10 @@ export default function EnhancedTable(props) {
     <Box>
       {visibleRows.length > 0 ? (
         <Paper sx={{ width: "100%", mb: 2 }}>
-          <EnhancedTableToolbar numSelected={selected.length} />
+          <EnhancedTableToolbar
+            numSelected={selected.length}
+            selected={selected}
+          />
           <TableContainer>
             <Table
               aria-labelledby="tableTitle"
