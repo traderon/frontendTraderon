@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Stack from "@mui/material/Stack";
@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import Button from "@mui/material/Button";
+import ToggleButton from "@mui/material/ToggleButton";
+import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 
 import MainLayout from "../../layouts/full/mainlayout";
 
@@ -53,6 +55,8 @@ const plans = [
 
 export default function PricePlan() {
   const navigate = useNavigate();
+
+  const [payMethod, setPayMethod] = useState("paypal");
 
   return (
     <MainLayout title="Account Plan">
@@ -103,13 +107,29 @@ export default function PricePlan() {
                 <Button
                   variant="contained"
                   sx={{ bgcolor: "#0094b6" }}
-                  onClick={() => navigate(`/payment-${plan.title}`)}
+                  onClick={() => {
+                    if (payMethod === "stripe")
+                      navigate(`/payment-${plan.title}`);
+                    else navigate(`/payment/:${plan.title}`);
+                  }}
                 >
                   Select Plan
                 </Button>
               </Stack>
             </Card>
           ))}
+        </Stack>
+        <Stack direction="row" alignItems="center" spacing={1}>
+          <Typography>Pay with</Typography>
+          <ToggleButtonGroup
+            color="secondary"
+            value={payMethod}
+            exclusive
+            onChange={(e, value) => setPayMethod(value)}
+          >
+            <ToggleButton value="paypal">PayPal</ToggleButton>
+            <ToggleButton value="stripe">Stripe</ToggleButton>
+          </ToggleButtonGroup>
         </Stack>
       </Stack>
     </MainLayout>

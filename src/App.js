@@ -21,6 +21,7 @@ import PricePlan from "./components/payment/PricePlan";
 import PaymentPagePro from "./components/payment/PaymentPagePro";
 import PaymentPagePremium from "./components/payment/PaymentPagePremium";
 import PaymentPageElite from "./components/payment/PaymentPageElite";
+import PayPalCheckout from "./components/payment/PayPalCheck";
 import NotFound from "./components/NotFound";
 
 if (localStorage.jwtToken) {
@@ -111,6 +112,14 @@ function App() {
                 element={
                   <PrivateRoute>
                     <PaymentPageElite />
+                  </PrivateRoute>
+                }
+              />
+              <Route
+                path="/payment/:membership"
+                element={
+                  <PrivateRoute>
+                    <PayPalCheckout />
                   </PrivateRoute>
                 }
               />
