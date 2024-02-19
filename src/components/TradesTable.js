@@ -63,6 +63,7 @@ export default function TradesTable() {
   const trades = useSelector((store) => store.trades);
   useEffect(() => {
     if (!isEmpty(trades.trades)) setTableData(trades.trades);
+    else setTableData([]);
   }, [trades]);
 
   const [filters, setFilters] = useState({
