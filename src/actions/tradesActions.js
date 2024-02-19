@@ -61,3 +61,25 @@ export const setTradesLoading = () => {
     type: TRADES_LOADING,
   };
 };
+
+export const deleteTrades =
+  (userId, tradeId, enqueueSnackbar, trades) => (dispatch) => {
+    if (userId) {
+      console.log(trades);
+      dispatch(setTradesLoading());
+      axios
+        .post("/api/delete_trades", { userId, tradeId })
+        .then(() => {
+          enqueueSnackbar(`Deleted ${tradeId.length} trades`, {
+            variant: "success",
+          });
+          dispatch({
+            type: GET_TRADES,
+            payload: trades.filter((trade) => !tradeId.includes(trade.id)),
+          });
+        })
+        .catch(() => {
+          enqueueSnackbar("Error occured", { variant: "error" });
+        });
+    }
+  };

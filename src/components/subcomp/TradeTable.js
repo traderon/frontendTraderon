@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect } from "react";
 import PropTypes from "prop-types";
-import axios from "axios";
 import { useSelector, useDispatch } from "react-redux";
 import { useSnackbar } from "notistack";
 // mui
@@ -34,7 +33,7 @@ import Divider from "@mui/material/Divider";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 // action
-import { getTradesFromDatabase } from "../../actions/tradesActions";
+import { deleteTrades } from "../../actions/tradesActions";
 
 function createData(
   id,
@@ -300,21 +299,12 @@ function EnhancedTableHead(props) {
 function EnhancedTableToolbar(props) {
   const { numSelected, selected } = props;
   const userId = useSelector((store) => store.auth.user.public_id);
+  const { trades } = useSelector((store) => store.trades);
   const { enqueueSnackbar } = useSnackbar();
   const dispatch = useDispatch();
 
   const handleDelete = () => {
-    axios
-      .post("/api/delete_trades", { userId: userId, tradeId: selected })
-      .then(() => {
-        enqueueSnackbar(`Deleted ${numSelected} trades`, {
-          variant: "success",
-        });
-        dispatch(getTradesFromDatabase({ user: userId }, enqueueSnackbar));
-      })
-      .catch(() => {
-        enqueueSnackbar("Error occured", { variant: "error" });
-      });
+    dispatch(deleteTrades(userId, selected, enqueueSnackbar, trades));
   };
 
   return (
