@@ -1,0 +1,7002 @@
+[
+  {
+    "id": 834,
+    "name": "FXGT-Live2",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 931
+  },
+  {
+    "id": 835,
+    "name": "FXGT-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 468
+  },
+  {
+    "id": 836,
+    "name": "FXGT-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 0
+  },
+  {
+    "id": 837,
+    "name": "4xCube-Live Backup",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 931
+  },
+  {
+    "id": 838,
+    "name": "4xCube-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 431
+  },
+  {
+    "id": 839,
+    "name": "4xCube-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 0
+  },
+  {
+    "id": 840,
+    "name": "AccuindexEU-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 437
+  },
+  {
+    "id": 841,
+    "name": "AccuindexLimited-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 437
+  },
+  {
+    "id": 842,
+    "name": "AccuindexLimited-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 437
+  },
+  {
+    "id": 843,
+    "name": "AccuindexEU-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 0
+  },
+  {
+    "id": 844,
+    "name": "ACGMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 0
+  },
+  {
+    "id": 845,
+    "name": "ACGMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 0
+  },
+  {
+    "id": 846,
+    "name": "ActivTradesCorp-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 438
+  },
+  {
+    "id": 847,
+    "name": "ActivTradesEurope-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 438
+  },
+  {
+    "id": 848,
+    "name": "Activtrades-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 438
+  },
+  {
+    "id": 849,
+    "name": "ACYSecurities-Live03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 439
+  },
+  {
+    "id": 850,
+    "name": "ACYSecurities-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 439
+  },
+  {
+    "id": 851,
+    "name": "ACYSecurities-Live02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 439
+  },
+  {
+    "id": 852,
+    "name": "ACYSecurities-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 439
+  },
+  {
+    "id": 853,
+    "name": "AdmiralMarketsAU-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 854,
+    "name": "AdmiralMarkets-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 855,
+    "name": "AdmiralMarkets-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 856,
+    "name": "AdmiralMarketsAU-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 857,
+    "name": "AdmiralMarkets-Live3",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 858,
+    "name": "AdmiralMarketsAU-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 859,
+    "name": "AdmiralMarketsAU-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 860,
+    "name": "AdmiralMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 440
+  },
+  {
+    "id": 861,
+    "name": "ADSS-Live1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 442
+  },
+  {
+    "id": 862,
+    "name": "ADSS-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 442
+  },
+  {
+    "id": 863,
+    "name": "ADSS-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 442
+  },
+  {
+    "id": 864,
+    "name": "ADSS-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 442
+  },
+  {
+    "id": 865,
+    "name": "Afterprime-Live AP",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 447
+  },
+  {
+    "id": 866,
+    "name": "Afterprime-Demo AP",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 447
+  },
+  {
+    "id": 867,
+    "name": "Aglobe-Live-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 448
+  },
+  {
+    "id": 868,
+    "name": "Aglobe-Demo-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 448
+  },
+  {
+    "id": 869,
+    "name": "AirJFX-Pro-1",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 451
+  },
+  {
+    "id": 870,
+    "name": "AlpariEvrasia-Trade",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 871,
+    "name": "Alpari-Trade",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 872,
+    "name": "Alpari-Pro.ECN",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 873,
+    "name": "Alpari-Standard2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 874,
+    "name": "Alpari-ECN1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 875,
+    "name": "Alpari-Nano",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 876,
+    "name": "AlpariEvrasia-Trade02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 877,
+    "name": "Alpari-ECN-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 878,
+    "name": "Alpari-Standard3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 879,
+    "name": "Alpari-Pro.ECN2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 880,
+    "name": "Alpari-Standard1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 881,
+    "name": "Alpari-Trade02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 882,
+    "name": "Alpari-Pro.ECN-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 883,
+    "name": "Alpari-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 884,
+    "name": "Alpari-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 885,
+    "name": "AlpariEvrasia-Real01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 886,
+    "name": "Alpari-Real01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 887,
+    "name": "Alpari-Demo03",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 888,
+    "name": "Alpari-MT5-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 889,
+    "name": "AlpariEvrasia-Demo03",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 455
+  },
+  {
+    "id": 890,
+    "name": "AlphaMarketsSA-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 457
+  },
+  {
+    "id": 891,
+    "name": "AMarkets-Real",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 460
+  },
+  {
+    "id": 892,
+    "name": "AMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 460
+  },
+  {
+    "id": 893,
+    "name": "AMPGlobalUSA-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 462
+  },
+  {
+    "id": 894,
+    "name": "AMPGlobalUSA-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 462
+  },
+  {
+    "id": 895,
+    "name": "ApexCapitalMarkets-ECN",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 464
+  },
+  {
+    "id": 896,
+    "name": "ApexSmartMoney-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 464
+  },
+  {
+    "id": 897,
+    "name": "AthensMarkets-Pro-1",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 469
+  },
+  {
+    "id": 898,
+    "name": "AthensMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 469
+  },
+  {
+    "id": 899,
+    "name": "AudaCity-LIVE",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 472
+  },
+  {
+    "id": 900,
+    "name": "AudaCity-DEMO",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 472
+  },
+  {
+    "id": 901,
+    "name": "AudaCityGlobal-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 472
+  },
+  {
+    "id": 902,
+    "name": "Ava-Real 6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 903,
+    "name": "Ava-Real 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 904,
+    "name": "Ava-Real 4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 905,
+    "name": "Ava-Real 1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 906,
+    "name": "Ava-Real 5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 907,
+    "name": "Ava-Real 5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 908,
+    "name": "Ava-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 476
+  },
+  {
+    "id": 909,
+    "name": "Axi-US02-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 910,
+    "name": "Axi-US16-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 911,
+    "name": "Axi-US09-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 912,
+    "name": "Axi-US03-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 913,
+    "name": "Axi-US07-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 914,
+    "name": "Axi-US06-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 915,
+    "name": "Axi-US10-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 916,
+    "name": "Axi-US05-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 917,
+    "name": "Axi-US12-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 918,
+    "name": "Axi-US888-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 919,
+    "name": "Axi-US03-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 920,
+    "name": "Axi-US888-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 921,
+    "name": "Axi-US03-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 479
+  },
+  {
+    "id": 922,
+    "name": "AximTrade2-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 480
+  },
+  {
+    "id": 923,
+    "name": "AximTrade2-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 480
+  },
+  {
+    "id": 924,
+    "name": "AximTrade2-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 480
+  },
+  {
+    "id": 925,
+    "name": "AximTrade2-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 480
+  },
+  {
+    "id": 926,
+    "name": "BDSwiss-Real01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 927,
+    "name": "BDSwissSC-Real01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 928,
+    "name": "BDSwissGlobal-Real01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 929,
+    "name": "BDSwissGlobal-Real05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 930,
+    "name": "BDSwiss-Real03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 931,
+    "name": "BDSwiss-Real04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 932,
+    "name": "BDSwissSC-Real05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 933,
+    "name": "BDSwissSC-Real04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 934,
+    "name": "BDSwissSC-Real02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 935,
+    "name": "BDSwissGlobal-Real04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 936,
+    "name": "BDSwiss-Real02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 937,
+    "name": "BDSwissGlobal-Real02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 938,
+    "name": "BDSwissSC-Real03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 939,
+    "name": "BDSwissGlobal-Real03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 940,
+    "name": "BDSwissSC-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 941,
+    "name": "BDSwiss-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 942,
+    "name": "BDSwissGlobal-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 486
+  },
+  {
+    "id": 943,
+    "name": "BIGSolutions-LIVE1",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 489
+  },
+  {
+    "id": 944,
+    "name": "BlackBullMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 490
+  },
+  {
+    "id": 945,
+    "name": "BlackBullMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 490
+  },
+  {
+    "id": 946,
+    "name": "BlackBullMarkets-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 490
+  },
+  {
+    "id": 947,
+    "name": "BlazeMarkets-LIVE",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 494
+  },
+  {
+    "id": 948,
+    "name": "BlazeMarkets-DEMO",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 494
+  },
+  {
+    "id": 949,
+    "name": "BlueberryMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 495
+  },
+  {
+    "id": 950,
+    "name": "BlueberryMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 495
+  },
+  {
+    "id": 951,
+    "name": "BluerexTechnology-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 496
+  },
+  {
+    "id": 952,
+    "name": "BybitGlobal-Asia",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 504
+  },
+  {
+    "id": 953,
+    "name": "BybitGlobal-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 504
+  },
+  {
+    "id": 954,
+    "name": "Capital.com-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 506
+  },
+  {
+    "id": 955,
+    "name": "Capital.com-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 506
+  },
+  {
+    "id": 956,
+    "name": "CapitalIndex-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 507
+  },
+  {
+    "id": 957,
+    "name": "CapitalIndexUK-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 507
+  },
+  {
+    "id": 958,
+    "name": "CapitalIndexGlobal-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 507
+  },
+  {
+    "id": 959,
+    "name": "CapitalIndexUK-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 507
+  },
+  {
+    "id": 960,
+    "name": "CapitalIndexGlobal-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 507
+  },
+  {
+    "id": 961,
+    "name": "CapitalMarketsEliteGroup-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 509
+  },
+  {
+    "id": 962,
+    "name": "CapitalMarketsGiants-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 510
+  },
+  {
+    "id": 963,
+    "name": "CappmoreWealth-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 511
+  },
+  {
+    "id": 964,
+    "name": "CarbonProFX-Pro-1",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 512
+  },
+  {
+    "id": 965,
+    "name": "CawadaInvestment-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 513
+  },
+  {
+    "id": 966,
+    "name": "CBT-Limited",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 514
+  },
+  {
+    "id": 967,
+    "name": "FXCC1-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 517
+  },
+  {
+    "id": 968,
+    "name": "FXCC1-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 517
+  },
+  {
+    "id": 969,
+    "name": "CFITrader-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 519
+  },
+  {
+    "id": 970,
+    "name": "CFITrader-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 519
+  },
+  {
+    "id": 971,
+    "name": "CloverMarket-Online",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 524
+  },
+  {
+    "id": 972,
+    "name": "CMTrading-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 526
+  },
+  {
+    "id": 973,
+    "name": "CMTrading-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 526
+  },
+  {
+    "id": 974,
+    "name": "CMCMarkets1-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 527
+  },
+  {
+    "id": 975,
+    "name": "CMCMarkets1-Singapore",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 527
+  },
+  {
+    "id": 976,
+    "name": "CMCMarkets1-Canada",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 527
+  },
+  {
+    "id": 977,
+    "name": "CMCMarkets1-SpreadBet",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 527
+  },
+  {
+    "id": 978,
+    "name": "CMCMarkets1-Europe",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 527
+  },
+  {
+    "id": 979,
+    "name": "CMCMarkets1-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 527
+  },
+  {
+    "id": 980,
+    "name": "Coinexx-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 528
+  },
+  {
+    "id": 981,
+    "name": "Coinexx-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 528
+  },
+  {
+    "id": 982,
+    "name": "Cryptograph-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 531
+  },
+  {
+    "id": 983,
+    "name": "CWGMarketsUK-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 532
+  },
+  {
+    "id": 984,
+    "name": "CWGMarketsSVG-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 532
+  },
+  {
+    "id": 985,
+    "name": "CWGMarketsUK-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 532
+  },
+  {
+    "id": 986,
+    "name": "CWGMarketsSVG-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 532
+  },
+  {
+    "id": 987,
+    "name": "CXMDirect-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 533
+  },
+  {
+    "id": 988,
+    "name": "CXMDirect-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 533
+  },
+  {
+    "id": 989,
+    "name": "CXMTradingLtd-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 534
+  },
+  {
+    "id": 990,
+    "name": "CXMTradingLtd-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 534
+  },
+  {
+    "id": 991,
+    "name": "DafexGlobal-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 536
+  },
+  {
+    "id": 992,
+    "name": "Darwinex-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 537
+  },
+  {
+    "id": 993,
+    "name": "Darwinex-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 537
+  },
+  {
+    "id": 994,
+    "name": "DIS-Real-01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 538
+  },
+  {
+    "id": 995,
+    "name": "DIS-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 538
+  },
+  {
+    "id": 996,
+    "name": "Deriv-Server-02",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 540
+  },
+  {
+    "id": 997,
+    "name": "Deriv-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 540
+  },
+  {
+    "id": 998,
+    "name": "Deriv-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 540
+  },
+  {
+    "id": 999,
+    "name": "DollarsMarkets-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 542
+  },
+  {
+    "id": 1000,
+    "name": "DollarsMarkets2-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 542
+  },
+  {
+    "id": 1001,
+    "name": "DollarsMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 542
+  },
+  {
+    "id": 1002,
+    "name": "DollarsMarkets2-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 542
+  },
+  {
+    "id": 1003,
+    "name": "DominionMarketsLLC-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 543
+  },
+  {
+    "id": 1004,
+    "name": "Dukascopy-LIVE-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 546
+  },
+  {
+    "id": 1005,
+    "name": "Dukascopy-DEMO-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 546
+  },
+  {
+    "id": 1006,
+    "name": "E8Funding-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 548
+  },
+  {
+    "id": 1007,
+    "name": "E8Funding-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 548
+  },
+  {
+    "id": 1008,
+    "name": "EagleFX-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 549
+  },
+  {
+    "id": 1009,
+    "name": "EagleFX-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 549
+  },
+  {
+    "id": 1010,
+    "name": "HantecMarkets-Server1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 551
+  },
+  {
+    "id": 1011,
+    "name": "HantecMarkets-Demo1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 551
+  },
+  {
+    "id": 1012,
+    "name": "HantecMarkets-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 551
+  },
+  {
+    "id": 1013,
+    "name": "EGMSecurities-Live 4",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 552
+  },
+  {
+    "id": 1014,
+    "name": "EGMSecurities-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 552
+  },
+  {
+    "id": 1015,
+    "name": "EightcapLtd-Real-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1016,
+    "name": "Eightcap-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1017,
+    "name": "EightcapLtd-Real2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1018,
+    "name": "EightcapLtd-Real-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1019,
+    "name": "EightcapLtd-Demo2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1020,
+    "name": "EightcapLtd-Demo05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1021,
+    "name": "Eightcap-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1022,
+    "name": "EightcapLtd-Demo3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1023,
+    "name": "Eightcap-Demo04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1024,
+    "name": "Eightcap-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1025,
+    "name": "EightcapEU-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 553
+  },
+  {
+    "id": 1026,
+    "name": "EnviLLC-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 558
+  },
+  {
+    "id": 1027,
+    "name": "EnviLLC-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 558
+  },
+  {
+    "id": 1028,
+    "name": "EnviLLC-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 558
+  },
+  {
+    "id": 1029,
+    "name": "EnviLLC-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 558
+  },
+  {
+    "id": 1030,
+    "name": "EquitiGroup-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 560
+  },
+  {
+    "id": 1031,
+    "name": "EquitiGroup-Live 6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 560
+  },
+  {
+    "id": 1032,
+    "name": "EquitiGroup-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 560
+  },
+  {
+    "id": 1033,
+    "name": "EquitiGroup-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 560
+  },
+  {
+    "id": 1034,
+    "name": "EquitiGroupLtd-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 560
+  },
+  {
+    "id": 1035,
+    "name": "EquitiGroupLtd-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 560
+  },
+  {
+    "id": 1036,
+    "name": "EurotradeSA-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 563
+  },
+  {
+    "id": 1037,
+    "name": "EuroTradeInvestments-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 563
+  },
+  {
+    "id": 1038,
+    "name": "EurotradeSA-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 563
+  },
+  {
+    "id": 1039,
+    "name": "EuroTradeInvestments-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 563
+  },
+  {
+    "id": 1040,
+    "name": "EvergreenPrimeCapital-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 564
+  },
+  {
+    "id": 1041,
+    "name": "ExclusiveMarkets2-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 566
+  },
+  {
+    "id": 1042,
+    "name": "ExclusiveMarkets-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 566
+  },
+  {
+    "id": 1043,
+    "name": "ExclusiveMarkets-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 566
+  },
+  {
+    "id": 1044,
+    "name": "ExnessBV-Real9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1045,
+    "name": "Exness-Real9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1046,
+    "name": "ExnessVG-Real4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1047,
+    "name": "ExnessVG-Real6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1048,
+    "name": "Exness-Real30",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1049,
+    "name": "Exness-Real25",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1050,
+    "name": "Exness-Real7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1051,
+    "name": "Exness-Real27",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1052,
+    "name": "Exness-Real20",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1053,
+    "name": "Exness-Real4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1054,
+    "name": "Exness-Real19",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1055,
+    "name": "Exness-Real21",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1056,
+    "name": "Exness-Real2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1057,
+    "name": "ExnessBV-Real6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1058,
+    "name": "ExnessVG-Real17",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1059,
+    "name": "Exness-Real24",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1060,
+    "name": "ExnessBV-Real7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1061,
+    "name": "ExnessVG-Real7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1062,
+    "name": "ExnessVG-Real12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1063,
+    "name": "Exness-Real26",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1064,
+    "name": "ExnessBV-Real3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1065,
+    "name": "ExnessVG-Real21",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1066,
+    "name": "Exness-Real11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1067,
+    "name": "Exness-Trial",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1068,
+    "name": "Exness-Real16",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1069,
+    "name": "Exness-Real28",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1070,
+    "name": "ExnessBV-Real4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1071,
+    "name": "ExnessUK-Real10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1072,
+    "name": "Exness-Real22",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1073,
+    "name": "ExnessVG-Real11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1074,
+    "name": "ExnessVG-Real15",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1075,
+    "name": "ExnessVG-Real16",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1076,
+    "name": "ExnessBV-Real11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1077,
+    "name": "ExnessBV-Real11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1078,
+    "name": "ExnessVG-Real22",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1079,
+    "name": "ExnessVG-Real18",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1080,
+    "name": "Exness-Trial8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1081,
+    "name": "ExnessVG-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1082,
+    "name": "Exness-Real31",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1083,
+    "name": "Exness-Real12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1084,
+    "name": "Exness-Real8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1085,
+    "name": "ExnessBV-Real12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1086,
+    "name": "Exness-Real23",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1087,
+    "name": "Exness-Real15",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1088,
+    "name": "Exness-Real18",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1089,
+    "name": "ExnessVG-Real23",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1090,
+    "name": "Exness-Real14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1091,
+    "name": "ExnessVG-Real3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1092,
+    "name": "Exness-Real33",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1093,
+    "name": "Exness-Real17",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1094,
+    "name": "ExnessBV-Real2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1095,
+    "name": "Exness-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1096,
+    "name": "ExnessVG-Real14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1097,
+    "name": "ExnessBV-Real8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1098,
+    "name": "ExnessVG-Real19",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1099,
+    "name": "Exness-Real6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1100,
+    "name": "Exness-Real29",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1101,
+    "name": "ExnessBV-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1102,
+    "name": "ExnessVG-Real20",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1103,
+    "name": "Exness-Trial14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1104,
+    "name": "Exness-Trial9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1105,
+    "name": "ExnessBV-Trial6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1106,
+    "name": "ExnessVG-Trial",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1107,
+    "name": "ExnessSC-Trial",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1108,
+    "name": "ExnessVG-Trial10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1109,
+    "name": "ExnessVG-Trial8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1110,
+    "name": "ExnessBV-Trial4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1111,
+    "name": "Exness-Trial11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1112,
+    "name": "Exness-Trial6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1113,
+    "name": "Exness-Trial12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1114,
+    "name": "Exness-Trial4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1115,
+    "name": "Exness-Trial10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1116,
+    "name": "ExnessVG-Trial4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1117,
+    "name": "ExnessVG-Trial6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1118,
+    "name": "Exness-Trial7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1119,
+    "name": "Exness-Trial2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1120,
+    "name": "Exness-Trial5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1121,
+    "name": "ExnessVG-Trial5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1122,
+    "name": "ExnessBV-Trial2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1123,
+    "name": "ExnessVG-Trial2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1124,
+    "name": "ExnessCY-Trial2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1125,
+    "name": "ExnessBV-Trial5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1126,
+    "name": "ExnessVG-Trial9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1127,
+    "name": "ExnessVG-Trial7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1128,
+    "name": "ExnessVG-Trial11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 567
+  },
+  {
+    "id": 1129,
+    "name": "Exness Technologies",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1130,
+    "name": "Exness-MT5Real9",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1131,
+    "name": "ExnessSC-MT5Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1132,
+    "name": "ExnessSC-MT5Real15",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1133,
+    "name": "ExnessBV-MT5Real3",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1134,
+    "name": "ExnessInvestmentBank-MT5Real15",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1135,
+    "name": "Exness-MT5Real3",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1136,
+    "name": "Exness-MT5Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1137,
+    "name": "Exness-MT5Real5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1138,
+    "name": "Exness-MT5Real8",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1139,
+    "name": "ExnessVG-MT5Real3",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1140,
+    "name": "ExnessSC-MT5Real3",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1141,
+    "name": "ExnessVG-MT5Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1142,
+    "name": "ExnessBV-MT5Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1143,
+    "name": "ExnessVG-MT5Real15",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1144,
+    "name": "Exness-MT5Real15",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1145,
+    "name": "Exness-MT5Trial7",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1146,
+    "name": "Exness-MT5Real10",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1147,
+    "name": "Exness-MT5Trial",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1148,
+    "name": "ExnessBV-MT5Real15",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1149,
+    "name": "Exness-MT5Real6",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1150,
+    "name": "ExnessSC-MT5Trial7",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1151,
+    "name": "Exness-MT5Trial6",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1152,
+    "name": "ExnessBV-MT5Trial6",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1153,
+    "name": "Exness-MT5Trial5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1154,
+    "name": "ExnessSC-MT5Trial6",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1155,
+    "name": "ExnessVG-MT5Trial6",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1156,
+    "name": "Exness-MT5Trial9",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 568
+  },
+  {
+    "id": 1157,
+    "name": "FBKMarkets-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 569
+  },
+  {
+    "id": 1158,
+    "name": "FBKMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 569
+  },
+  {
+    "id": 1159,
+    "name": "FBS-Real-5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1160,
+    "name": "FBS-Real-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1161,
+    "name": "FBS-Real-13",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1162,
+    "name": "FBS-Real-9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1163,
+    "name": "FBS-Real-8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1164,
+    "name": "FBS-Real-12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1165,
+    "name": "FBSInc-Real-11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1166,
+    "name": "FBS-Real-14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1167,
+    "name": "FBS-Real-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1168,
+    "name": "FBSInc-bonus1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1169,
+    "name": "FBS-Real-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1170,
+    "name": "FBS-Real-6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1171,
+    "name": "FBS-Real-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1172,
+    "name": "FBSInc2-Real-19",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1173,
+    "name": "FBS-Real-7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1174,
+    "name": "FBS-Real-10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1175,
+    "name": "FBS-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1176,
+    "name": "FBS-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 570
+  },
+  {
+    "id": 1177,
+    "name": "FBS-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 571
+  },
+  {
+    "id": 1178,
+    "name": "FBS-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 571
+  },
+  {
+    "id": 1179,
+    "name": "FinaltoUK-Live1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 574
+  },
+  {
+    "id": 1180,
+    "name": "FinaltoAustralia-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 574
+  },
+  {
+    "id": 1181,
+    "name": "FinaltoAustralia-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 574
+  },
+  {
+    "id": 1182,
+    "name": "FinesseFx-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 575
+  },
+  {
+    "id": 1183,
+    "name": "FinotiveMarkets-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 576
+  },
+  {
+    "id": 1184,
+    "name": "FPMarkets-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 577
+  },
+  {
+    "id": 1185,
+    "name": "FPMarkets-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 577
+  },
+  {
+    "id": 1186,
+    "name": "FPMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 577
+  },
+  {
+    "id": 1187,
+    "name": "FPMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 577
+  },
+  {
+    "id": 1188,
+    "name": "FivePercentOnline-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 578
+  },
+  {
+    "id": 1189,
+    "name": "ForeignExchangeClearingHouse-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 582
+  },
+  {
+    "id": 1190,
+    "name": "ForeignExchangeClearingHouse-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 582
+  },
+  {
+    "id": 1191,
+    "name": "ForeignExchangeClearingHouse-Main",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 582
+  },
+  {
+    "id": 1192,
+    "name": "ForexClub-MT4 Real Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1193,
+    "name": "ForexClub-MT4 Market Real 4 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1194,
+    "name": "ForexClub-MT4 Real 2 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1195,
+    "name": "ForexClub-MT4 Market Real 2 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1196,
+    "name": "ForexClub-MT4 Market Real Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1197,
+    "name": "ForexClub-MT4 Market Real 3 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1198,
+    "name": "ForexClub-MT4 Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1199,
+    "name": "ForexClub-MT4 Market Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 584
+  },
+  {
+    "id": 1200,
+    "name": "ForexClub-MT5 Real Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 585
+  },
+  {
+    "id": 1201,
+    "name": "Forex.com-Live 123",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1202,
+    "name": "Forex.com-Live 122",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1203,
+    "name": "Forex.com-Live 121",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1204,
+    "name": "Forex.com-Live 125",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1205,
+    "name": "FOREX.comCA-Live 130",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1206,
+    "name": "Forex.comUKLtd-Live 113",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1207,
+    "name": "Forex.comUKLtd-Live 115",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1208,
+    "name": "Forex.com-Live 124",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1209,
+    "name": "Forex.com-Live 120",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1210,
+    "name": "Forex.comUKLtd-Live 116",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1211,
+    "name": "Forex.comUKLtd-Live 111",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1212,
+    "name": "Forex.comUKLtd-Demo 108",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1213,
+    "name": "FOREX.comCA-Demo 129",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1214,
+    "name": "Forex.com-Demo 108",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1215,
+    "name": "FOREX.comGlobalCN-Live 534",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1216,
+    "name": "FOREX.comGlobal-Demo 531",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1217,
+    "name": "FOREX.comGlobalCN-Demo 533",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1218,
+    "name": "FOREX.comGlobal-Live 532",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 586
+  },
+  {
+    "id": 1219,
+    "name": "ForexTime-Cent",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1220,
+    "name": "ForexTime-Standard",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1221,
+    "name": "ForexTime-Cent2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1222,
+    "name": "ForexTime-ECN2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1223,
+    "name": "ForexTime-ECN",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1224,
+    "name": "ForexTimeFXTM-ECN-Zero",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1225,
+    "name": "ForexTime-ECN-Zero",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1226,
+    "name": "ForexTime-Cent-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1227,
+    "name": "ForexTime-ECN-Zero-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1228,
+    "name": "ForexTime-Standard-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1229,
+    "name": "ForexTime-ECN-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1230,
+    "name": "ForexTimeFXTM-ECN-Zero-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1231,
+    "name": "ForexTime-Live02",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1232,
+    "name": "ForexTime-Live01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1233,
+    "name": "ForexTime-Demo02",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1234,
+    "name": "ForexTime-Demo01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 588
+  },
+  {
+    "id": 1235,
+    "name": "FTMO-Server2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 597
+  },
+  {
+    "id": 1236,
+    "name": "FTMO-Server",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 597
+  },
+  {
+    "id": 1237,
+    "name": "FTMO-Demo2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 597
+  },
+  {
+    "id": 1238,
+    "name": "FTMO-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 597
+  },
+  {
+    "id": 1239,
+    "name": "FusionMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 599
+  },
+  {
+    "id": 1240,
+    "name": "FusionMarkets-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 599
+  },
+  {
+    "id": 1241,
+    "name": "FusionMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 599
+  },
+  {
+    "id": 1242,
+    "name": "FXCC-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 602
+  },
+  {
+    "id": 1243,
+    "name": "FXCC-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 602
+  },
+  {
+    "id": 1244,
+    "name": "FXChoice-Classic Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 603
+  },
+  {
+    "id": 1245,
+    "name": "FXChoice-Pro Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 603
+  },
+  {
+    "id": 1246,
+    "name": "FXChoice-Pro Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 603
+  },
+  {
+    "id": 1247,
+    "name": "FXChoice-Classic Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 603
+  },
+  {
+    "id": 1248,
+    "name": "FXChoice-MetaTrader 5 Pro",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 603
+  },
+  {
+    "id": 1249,
+    "name": "FxLiveCapital-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 606
+  },
+  {
+    "id": 1250,
+    "name": "FXLiveCapital-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 606
+  },
+  {
+    "id": 1251,
+    "name": "FXSway-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 607
+  },
+  {
+    "id": 1252,
+    "name": "FXSway-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 607
+  },
+  {
+    "id": 1253,
+    "name": "FxSway-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 607
+  },
+  {
+    "id": 1254,
+    "name": "FXSway-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 607
+  },
+  {
+    "id": 1255,
+    "name": "FxTechPro-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 608
+  },
+  {
+    "id": 1256,
+    "name": "FxTechPro-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 608
+  },
+  {
+    "id": 1257,
+    "name": "FXBTG-Main",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 610
+  },
+  {
+    "id": 1258,
+    "name": "FXBTG-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 610
+  },
+  {
+    "id": 1259,
+    "name": "FXCC-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 611
+  },
+  {
+    "id": 1260,
+    "name": "FXCC1-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 611
+  },
+  {
+    "id": 1261,
+    "name": "FXCC1-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 611
+  },
+  {
+    "id": 1262,
+    "name": "FXCC-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 611
+  },
+  {
+    "id": 1263,
+    "name": "FXCECompanyLimited-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 612
+  },
+  {
+    "id": 1264,
+    "name": "FXCELLC-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 612
+  },
+  {
+    "id": 1265,
+    "name": "FXCECompanyLtd-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 612
+  },
+  {
+    "id": 1266,
+    "name": "FXCELLC-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 612
+  },
+  {
+    "id": 1267,
+    "name": "FXCECompanyLtd-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 612
+  },
+  {
+    "id": 1268,
+    "name": "FXCM-USDReal04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1269,
+    "name": "FXCM-CADReal01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1270,
+    "name": "FXCM-USDReal08",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1271,
+    "name": "FXCM-EURReal02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1272,
+    "name": "FXCM-GBPReal01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1273,
+    "name": "FXCM-AUDReal01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1274,
+    "name": "FXCM-EURReal01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1275,
+    "name": "FXCM-USDReal02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1276,
+    "name": "FXCM-USDReal05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1277,
+    "name": "FXCM-USDReal03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1278,
+    "name": "FXCMBullion-USDDemo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1279,
+    "name": "FXCM-USDDemo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1280,
+    "name": "FXCM-USDDemo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1281,
+    "name": "FXCMEU-USDDemo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1282,
+    "name": "FXCM-EURDemo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1283,
+    "name": "FXCM-GBPDemo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 613
+  },
+  {
+    "id": 1284,
+    "name": "FXDD",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 614
+  },
+  {
+    "id": 1285,
+    "name": "FXDDTrading-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 614
+  },
+  {
+    "id": 1286,
+    "name": "FXFair.com-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 615
+  },
+  {
+    "id": 1287,
+    "name": "FXFair.com-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 615
+  },
+  {
+    "id": 1288,
+    "name": "FXFair.com-DEMO",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 615
+  },
+  {
+    "id": 1289,
+    "name": "FXFlatMT4-LiveServer",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 616
+  },
+  {
+    "id": 1290,
+    "name": "FXFlatMT4-DemoServer",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 616
+  },
+  {
+    "id": 1291,
+    "name": "FXOpenUK-Real1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1292,
+    "name": "FXOpenAU-ECN Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1293,
+    "name": "FXOpen-Real3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1294,
+    "name": "FXOpenUK-Real3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1295,
+    "name": "FXOpenAU-Real1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1296,
+    "name": "FXOpen-Competition",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1297,
+    "name": "FXOpen-ECN Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1298,
+    "name": "FXOpen-Real1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1299,
+    "name": "FXOpenUK-ECN Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1300,
+    "name": "FXOpenUK-Demo STP",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1301,
+    "name": "FXOpenAU-ECN Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 619
+  },
+  {
+    "id": 1302,
+    "name": "FXPIG-NY7 DEMO",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 620
+  },
+  {
+    "id": 1303,
+    "name": "FXPIG-LIVE",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 620
+  },
+  {
+    "id": 1304,
+    "name": "FXPIG-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 620
+  },
+  {
+    "id": 1305,
+    "name": "FxPro.com-Real05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1306,
+    "name": "FxPro.com-Real01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1307,
+    "name": "FxPro.com-Real07",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1308,
+    "name": "FxPro.com-Real03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1309,
+    "name": "FxPro.com-Real04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1310,
+    "name": "FxPro.com-Real02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1311,
+    "name": "FxPro.com-Real06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1312,
+    "name": "FxPro.com-Real08",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1313,
+    "name": "FxPro.com-Demo06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1314,
+    "name": "FxPro.com-Demo05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1315,
+    "name": "FxPro.com-Demo04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1316,
+    "name": "FxPro.com-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 623
+  },
+  {
+    "id": 1317,
+    "name": "ForexTimeFXTM-ECN",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1318,
+    "name": "ForexTimeFXTM-ECN-Zero",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1319,
+    "name": "ForexTimeFXTM-Cent",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1320,
+    "name": "ForexTimeFXTM-Standard",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1321,
+    "name": "ForexTimeFXTM-Cent2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1322,
+    "name": "ForexTimeFXTM-ECN2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1323,
+    "name": "ForexTimeFXTM-ECN-Zero-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1324,
+    "name": "ForexTimeFXTM-Cent-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1325,
+    "name": "ForexTimeFXTM-ECN-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1326,
+    "name": "ForexTimeFXTM-Standard-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1327,
+    "name": "ForexTimeFXTM-Live01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1328,
+    "name": "ForexTimeFXTM-Live02",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1329,
+    "name": "ForexTimeFXTM-Demo01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1330,
+    "name": "ForexTimeFXTM-Demo02",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 624
+  },
+  {
+    "id": 1331,
+    "name": "FXWinning-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 627
+  },
+  {
+    "id": 1332,
+    "name": "GBEbrokers-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 630
+  },
+  {
+    "id": 1333,
+    "name": "GBEbrokers-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 630
+  },
+  {
+    "id": 1334,
+    "name": "GBEbrokers-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 630
+  },
+  {
+    "id": 1335,
+    "name": "GBEbrokers-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 630
+  },
+  {
+    "id": 1336,
+    "name": "GlobalDigitalGroup-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 636
+  },
+  {
+    "id": 1337,
+    "name": "GlobalDigitalGroup-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 636
+  },
+  {
+    "id": 1338,
+    "name": "GMI-Live05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1339,
+    "name": "GMI-Live14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1340,
+    "name": "GMI-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1341,
+    "name": "GMI-Live11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1342,
+    "name": "GMI2-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1343,
+    "name": "GMI-Live15",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1344,
+    "name": "GMI-Live08",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1345,
+    "name": "GMI-Live09",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1346,
+    "name": "GMI-Live10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1347,
+    "name": "GMI-Live04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1348,
+    "name": "GMI-Live03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1349,
+    "name": "GMI-Live12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1350,
+    "name": "GMI-Live13",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1351,
+    "name": "GMI-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1352,
+    "name": "GMI2-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1353,
+    "name": "GMI-Demo03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1354,
+    "name": "GMI-Live1",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1355,
+    "name": "GMI-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 637
+  },
+  {
+    "id": 1356,
+    "name": "GlobalPrime-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 639
+  },
+  {
+    "id": 1357,
+    "name": "GlobalPrime-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 639
+  },
+  {
+    "id": 1358,
+    "name": "GrandCapital-Server-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 647
+  },
+  {
+    "id": 1359,
+    "name": "GrandCapital-Server-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 647
+  },
+  {
+    "id": 1360,
+    "name": "GrowingCapital-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 649
+  },
+  {
+    "id": 1361,
+    "name": "GrowthNext-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 650
+  },
+  {
+    "id": 1362,
+    "name": "GrowthNext-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 650
+  },
+  {
+    "id": 1363,
+    "name": "Hankotrade-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 652
+  },
+  {
+    "id": 1364,
+    "name": "Hankotrade-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 652
+  },
+  {
+    "id": 1365,
+    "name": "HantecMarkets-Server1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 653
+  },
+  {
+    "id": 1366,
+    "name": "HantecMarkets-Demo1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 653
+  },
+  {
+    "id": 1367,
+    "name": "HeroFX-Pro-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 654
+  },
+  {
+    "id": 1368,
+    "name": "HeroFX-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 654
+  },
+  {
+    "id": 1369,
+    "name": "HFMarketsSA1-Live Server 8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1370,
+    "name": "HFMarketsSV-Live Server 6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1371,
+    "name": "HFMarketsKE-Live Server 8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1372,
+    "name": "HFMarketsSV-Live Server 7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1373,
+    "name": "HFMarketsSV-Live Server 5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1374,
+    "name": "HFMarketsSV-Live Server 4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1375,
+    "name": "HFMarketsSV-Live Server 3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1376,
+    "name": "HFMarketsSV-Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1377,
+    "name": "HFMarketsKE-Demo Server 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1378,
+    "name": "HFMarketsSV-Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1379,
+    "name": "HFMarketsGlobal-Live1",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1380,
+    "name": "HFMarketsKE-Live2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1381,
+    "name": "HFMarketsGlobal-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1382,
+    "name": "HFMarketsKE-Demo2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 655
+  },
+  {
+    "id": 1383,
+    "name": "HiveTech-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 656
+  },
+  {
+    "id": 1384,
+    "name": "HiveTech-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 656
+  },
+  {
+    "id": 1385,
+    "name": "HiveTech-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 656
+  },
+  {
+    "id": 1386,
+    "name": "HiveTech-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 656
+  },
+  {
+    "id": 1387,
+    "name": "HugosWay-Real3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 657
+  },
+  {
+    "id": 1388,
+    "name": "HugosWay-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 657
+  },
+  {
+    "id": 1389,
+    "name": "HugosWay-Demo3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 657
+  },
+  {
+    "id": 1390,
+    "name": "HugosWay-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 248
+  },
+  {
+    "id": 1391,
+    "name": "ICMarketsSC-Live22",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1392,
+    "name": "ICMarketsSC-Live21",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1393,
+    "name": "ICMarketsSC-Live19",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1394,
+    "name": "ICMarketsSC-Live07",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1395,
+    "name": "ICMarketsSC-Live06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1396,
+    "name": "ICMarketsSC-Live31",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1397,
+    "name": "ICMarketsSC-Live10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1398,
+    "name": "ICMarketsGRP-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1399,
+    "name": "ICMarketsSC-Live12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1400,
+    "name": "ICMarketsSC-Live32",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1401,
+    "name": "ICMarketsSC-Live23",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1402,
+    "name": "ICMarketsSC-Live08",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1403,
+    "name": "ICMarketsSC-Live02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1404,
+    "name": "ICMarketsSC-Live16",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1405,
+    "name": "ICMarketsSC-Live25",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1406,
+    "name": "ICMarketsSC-Live20",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1407,
+    "name": "ICMarketsSC-Live35",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1408,
+    "name": "ICMarketsSC-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1409,
+    "name": "ICMarketsSC-Live11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1410,
+    "name": "ICMarketsSC-Live17",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1411,
+    "name": "ICMarketsSC-Live14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1412,
+    "name": "ICMarketsEU-Live18",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1413,
+    "name": "ICMarketsSC-Live15",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1414,
+    "name": "ICMarketsInternational-Live30",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1415,
+    "name": "ICMarketsSC-Live34",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1416,
+    "name": "ICMarketsSC-Live27",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1417,
+    "name": "ICMarketsSC-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1418,
+    "name": "ICMarketsSC-Live04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1419,
+    "name": "ICMarketsSC-Live26",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1420,
+    "name": "ICMarketsEU-Live17",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1421,
+    "name": "ICMarketsSC-Live33",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1422,
+    "name": "ICMarketsInternational-Live29",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1423,
+    "name": "ICMarketsSC-Live03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1424,
+    "name": "ICMarketsSC-Live05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1425,
+    "name": "ICMarketsSC-Live09",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1426,
+    "name": "ICMarketsSC-Live18",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1427,
+    "name": "ICMarketsSC-Live24",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1428,
+    "name": "ICMarketsSC-Demo06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1429,
+    "name": "ICMarketsSC-Demo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1430,
+    "name": "ICMarketsSC-Demo03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1431,
+    "name": "ICMarketsEU-Demo03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1432,
+    "name": "ICMarketsEU-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1433,
+    "name": "ICMarkets-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1434,
+    "name": "ICMarkets-Demo03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1435,
+    "name": "ICMarketsInternational-Demo05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1436,
+    "name": "ICMarketsGRP-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1437,
+    "name": "ICMarketsEU-Demo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1438,
+    "name": "ICMarketsSC-Demo04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1439,
+    "name": "ICMarketsEU-MT5-4",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1440,
+    "name": "ICMarketsSC-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1441,
+    "name": "ICMarkets-MT5-4",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1442,
+    "name": "ICMarkets-MT5-2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1443,
+    "name": "ICMarketsEU-MT5-2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1444,
+    "name": "ICMarketsGRP-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1445,
+    "name": "ICMarketsEU-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1446,
+    "name": "ICMarketsInternational-MT5-2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1447,
+    "name": "ICMarketsGRP-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1448,
+    "name": "ICMarketsInternational-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1449,
+    "name": "ICMarketsSC-MT5-4",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1450,
+    "name": "ICMarketsSC-MT5-2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1451,
+    "name": "ICMarketsInternational-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1452,
+    "name": "ICMarketsSC-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1453,
+    "name": "ICMarketsEU-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1454,
+    "name": "ICMarkets-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 659
+  },
+  {
+    "id": 1455,
+    "name": "IFXBrokers-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 667
+  },
+  {
+    "id": 1456,
+    "name": "IFXBrokers-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 667
+  },
+  {
+    "id": 1457,
+    "name": "IFXBrokers-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 668
+  },
+  {
+    "id": 1458,
+    "name": "IFXBrokers-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 668
+  },
+  {
+    "id": 1459,
+    "name": "IFXBrokers-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 669
+  },
+  {
+    "id": 1460,
+    "name": "IG-LIVE2",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 670
+  },
+  {
+    "id": 1461,
+    "name": "IG-LIVE",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 670
+  },
+  {
+    "id": 1462,
+    "name": "IG-DEMO",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 670
+  },
+  {
+    "id": 1463,
+    "name": "Incenteco-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 673
+  },
+  {
+    "id": 1464,
+    "name": "Incenteco-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 673
+  },
+  {
+    "id": 1465,
+    "name": "InfinoxCapital-Live04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1466,
+    "name": "InfinoxCapital-Live03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1467,
+    "name": "InfinoxCapitalLimited-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1468,
+    "name": "InfinoxCapital-Live06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1469,
+    "name": "InfinoxCapital-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1470,
+    "name": "InfinoxCapitalLimited-Live02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1471,
+    "name": "InfinoxCapitalLimited-Live04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1472,
+    "name": "InfinoxCapital-Live05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1473,
+    "name": "InfinoxLimited-Live06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1474,
+    "name": "InfinoxLimited-Live05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1475,
+    "name": "InfinoxCapital-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1476,
+    "name": "InfinoxCapital-Demo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1477,
+    "name": "InfinoxCapitalLimited-MT5Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1478,
+    "name": "InfinoxCapital-MT5Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1479,
+    "name": "InfinoxLimited-MT5Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1480,
+    "name": "InfinoxLimited-MT5Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1481,
+    "name": "InfinoxCapital-MT5Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1482,
+    "name": "InfinoxCapitalLimited-MT5Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 675
+  },
+  {
+    "id": 1483,
+    "name": "Inzo-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 683
+  },
+  {
+    "id": 1484,
+    "name": "Inzo-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 683
+  },
+  {
+    "id": 1485,
+    "name": "iQuoto-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 684
+  },
+  {
+    "id": 1486,
+    "name": "iQuoto-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 684
+  },
+  {
+    "id": 1487,
+    "name": "JustForex-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 692
+  },
+  {
+    "id": 1488,
+    "name": "JustForex-Live5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 692
+  },
+  {
+    "id": 1489,
+    "name": "JustForex-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 692
+  },
+  {
+    "id": 1490,
+    "name": "JustForex-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 692
+  },
+  {
+    "id": 1491,
+    "name": "JustForex-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 692
+  },
+  {
+    "id": 1492,
+    "name": "JustForex-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 692
+  },
+  {
+    "id": 1493,
+    "name": "JunoMarkets-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 693
+  },
+  {
+    "id": 1494,
+    "name": "JunoMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 693
+  },
+  {
+    "id": 1495,
+    "name": "JustForex-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 695
+  },
+  {
+    "id": 1496,
+    "name": "JustForex-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 695
+  },
+  {
+    "id": 1497,
+    "name": "KamaCapital-server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 698
+  },
+  {
+    "id": 1498,
+    "name": "KatoPrime-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 699
+  },
+  {
+    "id": 1499,
+    "name": "KatoPrime-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 699
+  },
+  {
+    "id": 1500,
+    "name": "KeyToMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 700
+  },
+  {
+    "id": 1501,
+    "name": "KeyToMarkets-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 700
+  },
+  {
+    "id": 1502,
+    "name": "KOT-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 702
+  },
+  {
+    "id": 1503,
+    "name": "KOT-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 702
+  },
+  {
+    "id": 1504,
+    "name": "KOT-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 702
+  },
+  {
+    "id": 1505,
+    "name": "KOT-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 702
+  },
+  {
+    "id": 1506,
+    "name": "KuberaCapitalMarkets-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 703
+  },
+  {
+    "id": 1507,
+    "name": "KwakolMarketsLtd-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 706
+  },
+  {
+    "id": 1508,
+    "name": "KwakolMarketsLtd-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 706
+  },
+  {
+    "id": 1509,
+    "name": "LibertexCom-MT4 Market Real 2 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 712
+  },
+  {
+    "id": 1510,
+    "name": "LibertexCom-MT4 Market Real 4 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 712
+  },
+  {
+    "id": 1511,
+    "name": "LibertexCom-MT4 Market Real 3 Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 712
+  },
+  {
+    "id": 1512,
+    "name": "LibertexCom-MT4 Market Real Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 712
+  },
+  {
+    "id": 1513,
+    "name": "LibertexCom-MT4 Market Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 712
+  },
+  {
+    "id": 1514,
+    "name": "LirunexLimited-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 714
+  },
+  {
+    "id": 1515,
+    "name": "LirunexLimited-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 714
+  },
+  {
+    "id": 1516,
+    "name": "LiteFinance-Cent.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1517,
+    "name": "LiteFinance-Cent2.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1518,
+    "name": "LiteFinance-Classic.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1519,
+    "name": "LiteFinance-ECN2.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1520,
+    "name": "LiteFinance-Classic2.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1521,
+    "name": "LiteFinance-ECN.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1522,
+    "name": "LiteFinance-ECN-PRO.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1523,
+    "name": "LiteFinance-Cent3.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1524,
+    "name": "LiteFinance-Demo.com",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 715
+  },
+  {
+    "id": 1525,
+    "name": "LiteFinance-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 717
+  },
+  {
+    "id": 1526,
+    "name": "lmax-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 718
+  },
+  {
+    "id": 1527,
+    "name": "LMAXNZ-LIVE",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 718
+  },
+  {
+    "id": 1528,
+    "name": "LMAXNZ-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 718
+  },
+  {
+    "id": 1529,
+    "name": "lmax-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 718
+  },
+  {
+    "id": 1530,
+    "name": "LMFX-Live Server 1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 719
+  },
+  {
+    "id": 1531,
+    "name": "LMFX-Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 719
+  },
+  {
+    "id": 1532,
+    "name": "Longhorn-Real2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 722
+  },
+  {
+    "id": 1533,
+    "name": "Longhorn-Demo2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 722
+  },
+  {
+    "id": 1534,
+    "name": "LoxdonCorp-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 723
+  },
+  {
+    "id": 1535,
+    "name": "LQDLLC-Live01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 725
+  },
+  {
+    "id": 1536,
+    "name": "LQDLLC-Live02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 725
+  },
+  {
+    "id": 1537,
+    "name": "LQDLLC-DEMO01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 725
+  },
+  {
+    "id": 1538,
+    "name": "Lucrorfx-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 726
+  },
+  {
+    "id": 1539,
+    "name": "Lucrorfx-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 726
+  },
+  {
+    "id": 1540,
+    "name": "M4Markets-Real1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 727
+  },
+  {
+    "id": 1541,
+    "name": "M4Markets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 727
+  },
+  {
+    "id": 1542,
+    "name": "Markets.com-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 730
+  },
+  {
+    "id": 1543,
+    "name": "Markets.com-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 730
+  },
+  {
+    "id": 1544,
+    "name": "Markets.com-Practice",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 730
+  },
+  {
+    "id": 1545,
+    "name": "MasariCapital-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 731
+  },
+  {
+    "id": 1546,
+    "name": "MasariCapital-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 731
+  },
+  {
+    "id": 1547,
+    "name": "MasariCapital-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 731
+  },
+  {
+    "id": 1548,
+    "name": "MasariCapital-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 731
+  },
+  {
+    "id": 1549,
+    "name": "MercatoBrokers-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 736
+  },
+  {
+    "id": 1550,
+    "name": "MetaQuotes-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 737
+  },
+  {
+    "id": 1551,
+    "name": "MEXAtlantic-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 738
+  },
+  {
+    "id": 1552,
+    "name": "MEXAtlantic-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 738
+  },
+  {
+    "id": 1553,
+    "name": "MEXGlobalFinancial-Real-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 739
+  },
+  {
+    "id": 1554,
+    "name": "MEXGlobalFinancial-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 739
+  },
+  {
+    "id": 1555,
+    "name": "MFGinvest-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 740
+  },
+  {
+    "id": 1556,
+    "name": "MogaIntlGroup-Live-Europe",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 742
+  },
+  {
+    "id": 1557,
+    "name": "MogaIntlGroup-LiveAsia",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 742
+  },
+  {
+    "id": 1558,
+    "name": "MogaIntlGroup-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 742
+  },
+  {
+    "id": 1559,
+    "name": "MonetaMarkets-Live 6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 744
+  },
+  {
+    "id": 1560,
+    "name": "MonetaMarkets-Live 3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 744
+  },
+  {
+    "id": 1561,
+    "name": "MultiLP-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 747
+  },
+  {
+    "id": 1562,
+    "name": "MultiLP-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 747
+  },
+  {
+    "id": 1563,
+    "name": "MVEHoldings-Real04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 748
+  },
+  {
+    "id": 1564,
+    "name": "MVEHoldings-Real01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 748
+  },
+  {
+    "id": 1565,
+    "name": "MVEHoldings-Real02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 748
+  },
+  {
+    "id": 1566,
+    "name": "MVEHoldings-Real03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 748
+  },
+  {
+    "id": 1567,
+    "name": "MVEHoldings-Real05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 748
+  },
+  {
+    "id": 1568,
+    "name": "MVEHoldings-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 748
+  },
+  {
+    "id": 1569,
+    "name": "NAGAGlobal-Live03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1570,
+    "name": "NAGAGlobal-Demo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1571,
+    "name": "NAGAGlobal-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1572,
+    "name": "NagaMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1573,
+    "name": "NagaMarkets-Demo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1574,
+    "name": "NagaMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1575,
+    "name": "NAGAGlobal-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1576,
+    "name": "NAGACapital-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1577,
+    "name": "NAGACapital-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 751
+  },
+  {
+    "id": 1578,
+    "name": "NashMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 752
+  },
+  {
+    "id": 1579,
+    "name": "NashMarkets-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 752
+  },
+  {
+    "id": 1580,
+    "name": "NashMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 752
+  },
+  {
+    "id": 1581,
+    "name": "NationFXLLC-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 753
+  },
+  {
+    "id": 1582,
+    "name": "NationFXLLC-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 753
+  },
+  {
+    "id": 1583,
+    "name": "NCMInvestmentKW-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 754
+  },
+  {
+    "id": 1584,
+    "name": "NCMInvestmentMY-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 754
+  },
+  {
+    "id": 1585,
+    "name": "NCMInvestmentKW-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 754
+  },
+  {
+    "id": 1586,
+    "name": "Netrios-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 755
+  },
+  {
+    "id": 1587,
+    "name": "Netrios-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 755
+  },
+  {
+    "id": 1588,
+    "name": "Netrios-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 755
+  },
+  {
+    "id": 1589,
+    "name": "Netrios-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 755
+  },
+  {
+    "id": 1590,
+    "name": "Netrios-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 755
+  },
+  {
+    "id": 1591,
+    "name": "OANDA-v20 Live-5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1592,
+    "name": "OANDA-v20 Live-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1593,
+    "name": "OANDA-v20 Live-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1594,
+    "name": "OANDA-Japan FX Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1595,
+    "name": "OANDA-OGM Live-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1596,
+    "name": "OANDA-v20 Live-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1597,
+    "name": "OANDA-v20 Live-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1598,
+    "name": "OANDA-Demo-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1599,
+    "name": "OANDA-xOGM Demo-1",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1600,
+    "name": "OANDA-Demo-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1601,
+    "name": "OANDA-OGM MT5 Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1602,
+    "name": "OANDA-Japan MT5 Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1603,
+    "name": "OANDA-Japan MT5 Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1604,
+    "name": "OANDA-Demo-1",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 762
+  },
+  {
+    "id": 1605,
+    "name": "OctaFX-Real6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1606,
+    "name": "OctaFX-Real4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1607,
+    "name": "OctaFX-Real10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1608,
+    "name": "OctaFX-Real",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1609,
+    "name": "OctaFX-Real5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1610,
+    "name": "OctaFX-Real9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1611,
+    "name": "OctaFX-Real2",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1612,
+    "name": "OctaFX-Real7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1613,
+    "name": "OctaFX-Real8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1614,
+    "name": "OctaFX-Real3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1615,
+    "name": "OctaFX-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1616,
+    "name": "OctaFX-Demo2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1617,
+    "name": "OctaFXCy-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1618,
+    "name": "OctaFXCy-Real",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 764
+  },
+  {
+    "id": 1619,
+    "name": "OFGCap-Pacific",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 765
+  },
+  {
+    "id": 1620,
+    "name": "OFGCap-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 765
+  },
+  {
+    "id": 1621,
+    "name": "OneFinancialMarkets-US11-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 766
+  },
+  {
+    "id": 1622,
+    "name": "Osprey-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 769
+  },
+  {
+    "id": 1623,
+    "name": "Osprey-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 769
+  },
+  {
+    "id": 1624,
+    "name": "Osprey-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 769
+  },
+  {
+    "id": 1625,
+    "name": "Osprey-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 769
+  },
+  {
+    "id": 1626,
+    "name": "OxSecurities-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 770
+  },
+  {
+    "id": 1627,
+    "name": "OxSecurities-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 770
+  },
+  {
+    "id": 1628,
+    "name": "PacificUnionLLC-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 772
+  },
+  {
+    "id": 1629,
+    "name": "PacificUnionLLC-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 772
+  },
+  {
+    "id": 1630,
+    "name": "Pepperstone-Edge11",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1631,
+    "name": "Pepperstone-Edge12",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1632,
+    "name": "Pepperstone-Demo02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1633,
+    "name": "Pepperstone-Edge07",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1634,
+    "name": "Pepperstone-Edge08",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1635,
+    "name": "Pepperstone-Edge01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1636,
+    "name": "Pepperstone-Edge05",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1637,
+    "name": "Pepperstone-Edge02",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1638,
+    "name": "PepperstoneUK-Edge10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1639,
+    "name": "Pepperstone-Edge03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1640,
+    "name": "Pepperstone-Edge14",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1641,
+    "name": "Pepperstone-Edge06",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1642,
+    "name": "Pepperstone-Edge09",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1643,
+    "name": "Pepperstone-Edge04",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1644,
+    "name": "Pepperstone-Demo01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1645,
+    "name": "PepperstoneUK-Demo03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1646,
+    "name": "PepperstoneUK-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1647,
+    "name": "PepperstoneUK-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 773
+  },
+  {
+    "id": 1648,
+    "name": "PGG-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 775
+  },
+  {
+    "id": 1649,
+    "name": "FXPIG-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 780
+  },
+  {
+    "id": 1650,
+    "name": "PrimeXBroker-01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 782
+  },
+  {
+    "id": 1651,
+    "name": "PrimeXBrokers-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 782
+  },
+  {
+    "id": 1652,
+    "name": "PrimusMarkets-Live-5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1653,
+    "name": "PrimusMarkets-Live-7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1654,
+    "name": "PrimusMarkets-Live-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1655,
+    "name": "PrimusMarkets-Live-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1656,
+    "name": "PrimusMarkets-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1657,
+    "name": "PrimusMarkets-Live-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1658,
+    "name": "PrimusMarkets-Practice",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1659,
+    "name": "PrimusMarkets-Live-6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 784
+  },
+  {
+    "id": 1660,
+    "name": "Prosperity-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 787
+  },
+  {
+    "id": 1661,
+    "name": "Prosperity-Live4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 787
+  },
+  {
+    "id": 1662,
+    "name": "Prosperity-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 787
+  },
+  {
+    "id": 1663,
+    "name": "Prosperity-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 787
+  },
+  {
+    "id": 1664,
+    "name": "PUPrime-Live 4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 795
+  },
+  {
+    "id": 1665,
+    "name": "PUPrime-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 795
+  },
+  {
+    "id": 1666,
+    "name": "PUPrime-Live 3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 795
+  },
+  {
+    "id": 1667,
+    "name": "PUPrime-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 795
+  },
+  {
+    "id": 1668,
+    "name": "PUPrime-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 795
+  },
+  {
+    "id": 1669,
+    "name": "PurpleTradingSC-04Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 796
+  },
+  {
+    "id": 1670,
+    "name": "PurpleTradingSC-02Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 796
+  },
+  {
+    "id": 1671,
+    "name": "QuickTrade-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 802
+  },
+  {
+    "id": 1672,
+    "name": "RaiseGroup-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 804
+  },
+  {
+    "id": 1673,
+    "name": "RCGMarkets-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 808
+  },
+  {
+    "id": 1674,
+    "name": "RCGMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 808
+  },
+  {
+    "id": 1675,
+    "name": "RightGroup-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 810
+  },
+  {
+    "id": 1676,
+    "name": "RightGroup-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 810
+  },
+  {
+    "id": 1677,
+    "name": "RoboForex-Pro-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1678,
+    "name": "RoboForex-ProCent",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1679,
+    "name": "RoboForex-Pro-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1680,
+    "name": "RoboForex-ProCent-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1681,
+    "name": "RoboForex-ProCent-7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1682,
+    "name": "RoboForex-ECN",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1683,
+    "name": "RoboForex-Pro-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1684,
+    "name": "RoboForex-ProCent-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1685,
+    "name": "RoboForex-Prime",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1686,
+    "name": "RoboForex-Pro",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1687,
+    "name": "RoboForex-ProCent-3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1688,
+    "name": "RoboForex-ProCent-8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1689,
+    "name": "RoboForex-ProCent-6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1690,
+    "name": "RoboForex-Pro-5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1691,
+    "name": "RoboForex-ECN-2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1692,
+    "name": "RoboForex-ProCent-5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1693,
+    "name": "RoboForex-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1694,
+    "name": "RoboForex-DemoPro",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 814
+  },
+  {
+    "id": 1695,
+    "name": "ScandinavianCapital-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 820
+  },
+  {
+    "id": 1696,
+    "name": "ScopeMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 822
+  },
+  {
+    "id": 1697,
+    "name": "ScopeMarkets-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 822
+  },
+  {
+    "id": 1698,
+    "name": "SCFMLimited-Demo2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 822
+  },
+  {
+    "id": 1699,
+    "name": "SCFMLimited-Live2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 822
+  },
+  {
+    "id": 1700,
+    "name": "STARTRADERINTL-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 831
+  },
+  {
+    "id": 1701,
+    "name": "STARTRADERINTL-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 831
+  },
+  {
+    "id": 1702,
+    "name": "STARTRADERINTL-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 831
+  },
+  {
+    "id": 1703,
+    "name": "SuperForex-ECN",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 833
+  },
+  {
+    "id": 1704,
+    "name": "SuperForex-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 833
+  },
+  {
+    "id": 1705,
+    "name": "SwayMarkets-Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 834
+  },
+  {
+    "id": 1706,
+    "name": "SwitchMarkets-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 836
+  },
+  {
+    "id": 1707,
+    "name": "SwitchMarkets-Real-01",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 836
+  },
+  {
+    "id": 1708,
+    "name": "SwitchMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 836
+  },
+  {
+    "id": 1709,
+    "name": "TDMHoldings-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 840
+  },
+  {
+    "id": 1710,
+    "name": "TDMHoldings-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 840
+  },
+  {
+    "id": 1711,
+    "name": "Templer-MT4-Multicurrency",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 843
+  },
+  {
+    "id": 1712,
+    "name": "Templer-MT4-USD",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 843
+  },
+  {
+    "id": 1713,
+    "name": "ThinkMarkets-Live 4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 846
+  },
+  {
+    "id": 1714,
+    "name": "ThinkMarkets-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 846
+  },
+  {
+    "id": 1715,
+    "name": "ThinkMarkets-Live 3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 846
+  },
+  {
+    "id": 1716,
+    "name": "ThinkMarkets-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 846
+  },
+  {
+    "id": 1717,
+    "name": "ThinkMarkets-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 846
+  },
+  {
+    "id": 1718,
+    "name": "ThinkMarkets-Demo 2",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 846
+  },
+  {
+    "id": 1719,
+    "name": "TheTradingMaster-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 847
+  },
+  {
+    "id": 1720,
+    "name": "ThorMarkets-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 848
+  },
+  {
+    "id": 1721,
+    "name": "ThorMarkets-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 848
+  },
+  {
+    "id": 1722,
+    "name": "TickmillUK-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1723,
+    "name": "Tickmill-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1724,
+    "name": "TickmillAsia-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1725,
+    "name": "TickmillEU-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1726,
+    "name": "TickmillEU-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1727,
+    "name": "TickmillUK-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1728,
+    "name": "TickmillAsia-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1729,
+    "name": "Tickmill-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 849
+  },
+  {
+    "id": 1730,
+    "name": "TIOMarketsCY-Live-7",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 852
+  },
+  {
+    "id": 1731,
+    "name": "TIOMarkets-Live-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 852
+  },
+  {
+    "id": 1732,
+    "name": "TIOMarketsUK-Live-4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 852
+  },
+  {
+    "id": 1733,
+    "name": "TIOMarketsCY-Practice",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 852
+  },
+  {
+    "id": 1734,
+    "name": "TIOMarkets-Practice",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 852
+  },
+  {
+    "id": 1735,
+    "name": "TIOMarketsUK-Practice",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 852
+  },
+  {
+    "id": 1736,
+    "name": "TiranForex-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 853
+  },
+  {
+    "id": 1737,
+    "name": "TiranForex-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 853
+  },
+  {
+    "id": 1738,
+    "name": "TitanFX-MT5-01",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 854
+  },
+  {
+    "id": 1739,
+    "name": "TitanFX-MT5-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 854
+  },
+  {
+    "id": 1740,
+    "name": "TOPFX-Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 857
+  },
+  {
+    "id": 1741,
+    "name": "TopFXBM-Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 857
+  },
+  {
+    "id": 1742,
+    "name": "TopFXGlobal-Live Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 857
+  },
+  {
+    "id": 1743,
+    "name": "TopFXBM-Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 857
+  },
+  {
+    "id": 1744,
+    "name": "TOPFX-Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 857
+  },
+  {
+    "id": 1745,
+    "name": "TopFXGlobal-Demo Server",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 857
+  },
+  {
+    "id": 1746,
+    "name": "TMGM.TradeMax-Live8",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 862
+  },
+  {
+    "id": 1747,
+    "name": "TradeNation-LiveBravo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 863
+  },
+  {
+    "id": 1748,
+    "name": "TradeNation-DemoBravo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 863
+  },
+  {
+    "id": 1749,
+    "name": "ForexCFDsTN-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 863
+  },
+  {
+    "id": 1750,
+    "name": "Trade245-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 865
+  },
+  {
+    "id": 1751,
+    "name": "Trade245-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 865
+  },
+  {
+    "id": 1752,
+    "name": "TradehallLimited-Main",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 868
+  },
+  {
+    "id": 1753,
+    "name": "TradehallLimited-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 868
+  },
+  {
+    "id": 1754,
+    "name": "TradersGlobalGroup-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 871
+  },
+  {
+    "id": 1755,
+    "name": "TradersGlobalGroup-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 871
+  },
+  {
+    "id": 1756,
+    "name": "TradersGlobalGroup-Demo3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 871
+  },
+  {
+    "id": 1757,
+    "name": "TradersGlobalGroup-Demo2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 871
+  },
+  {
+    "id": 1758,
+    "name": "TradersWay-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 872
+  },
+  {
+    "id": 1759,
+    "name": "TradersWay-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 872
+  },
+  {
+    "id": 1760,
+    "name": "Tradeview-Markets Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 874
+  },
+  {
+    "id": 1761,
+    "name": "Tradeview-Live",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 874
+  },
+  {
+    "id": 1762,
+    "name": "Tradeview-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 874
+  },
+  {
+    "id": 1763,
+    "name": "TradeviewEurope-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 874
+  },
+  {
+    "id": 1764,
+    "name": "TradeviewEurope-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 874
+  },
+  {
+    "id": 1765,
+    "name": "XMTrading-Real 252",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1766,
+    "name": "XMTrading-Real 256",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1767,
+    "name": "XMTrading-Demo 5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1768,
+    "name": "XMTrading-Real 49",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1769,
+    "name": "XMTrading-Real 25",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1770,
+    "name": "XMTrading-Real 31",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1771,
+    "name": "XMTrading-Real 258",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1772,
+    "name": "XMTrading-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1773,
+    "name": "XMTrading-MT5 3",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 876
+  },
+  {
+    "id": 1774,
+    "name": "TradingProInternational-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 877
+  },
+  {
+    "id": 1775,
+    "name": "TradingProInternational-Live 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 877
+  },
+  {
+    "id": 1776,
+    "name": "TradingProInternational-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 877
+  },
+  {
+    "id": 1777,
+    "name": "TradingRoad-LIVE3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 878
+  },
+  {
+    "id": 1778,
+    "name": "TradingRoad-LIVE2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 878
+  },
+  {
+    "id": 1779,
+    "name": "TradingRoad-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 878
+  },
+  {
+    "id": 1780,
+    "name": "Trading.comMarkets-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 879
+  },
+  {
+    "id": 1781,
+    "name": "TriumphFX-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 883
+  },
+  {
+    "id": 1782,
+    "name": "TriumphFX-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 883
+  },
+  {
+    "id": 1783,
+    "name": "TrueProprietaryFunds-LIVE",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 884
+  },
+  {
+    "id": 1784,
+    "name": "TrueProprietaryFunds-Demo",
+    "mt4": 1,
+    "mt5": 1,
+    "fk_broker_id": 884
+  },
+  {
+    "id": 1785,
+    "name": "TrustMaxFX-Live",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 886
+  },
+  {
+    "id": 1786,
+    "name": "TrustMaxFX-Demo",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 886
+  },
+  {
+    "id": 1787,
+    "name": "TTCM-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 887
+  },
+  {
+    "id": 1788,
+    "name": "TTCM-Live3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 887
+  },
+  {
+    "id": 1789,
+    "name": "TTCM-Live2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 887
+  },
+  {
+    "id": 1790,
+    "name": "TTCM-demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 887
+  },
+  {
+    "id": 1791,
+    "name": "TTCM-demo2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 887
+  },
+  {
+    "id": 1792,
+    "name": "VaultMarkets2-Live03",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 902
+  },
+  {
+    "id": 1793,
+    "name": "VaultMarkets-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 902
+  },
+  {
+    "id": 1794,
+    "name": "VaultMarkets2-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 902
+  },
+  {
+    "id": 1795,
+    "name": "WindsorBrokersLtd-REAL",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 910
+  },
+  {
+    "id": 1796,
+    "name": "WindsorBrokersLtd-DEMO",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 910
+  },
+  {
+    "id": 1797,
+    "name": "WindsorBrokers-REAL2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 911
+  },
+  {
+    "id": 1798,
+    "name": "WindsorBrokers-REAL3",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 911
+  },
+  {
+    "id": 1799,
+    "name": "WindsorBrokers-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 911
+  },
+  {
+    "id": 1800,
+    "name": "WindsorBrokers-DEMO",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 911
+  },
+  {
+    "id": 1801,
+    "name": "XGLOBAL-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 913
+  },
+  {
+    "id": 1802,
+    "name": "XBTFX-Real",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 914
+  },
+  {
+    "id": 1803,
+    "name": "XBTFX-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 914
+  },
+  {
+    "id": 1804,
+    "name": "XGLOBALFX-Live",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 916
+  },
+  {
+    "id": 1805,
+    "name": "XGLOBALFX-Server",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 916
+  },
+  {
+    "id": 1806,
+    "name": "XMGlobal-Real 43",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1807,
+    "name": "XMGlobal-Real 46",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1808,
+    "name": "XMGlobal-Real 5",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1809,
+    "name": "XMGlobal-Real 27",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1810,
+    "name": "XMGlobal-Real 44",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1811,
+    "name": "XMGlobal-Real 10",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1812,
+    "name": "XMGlobal-Real 21",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1813,
+    "name": "XMGlobal-Real 35",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1814,
+    "name": "XMGlobal-Real 6",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1815,
+    "name": "XMGlobal-Real 18",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1816,
+    "name": "XMGlobal-Real 15",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1817,
+    "name": "XMGlobal-Real 17",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1818,
+    "name": "XMGlobal-Real 20",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1819,
+    "name": "XMGlobal-Real 42",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1820,
+    "name": "XMGlobal-Real 38",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1821,
+    "name": "XMGlobal-Real 32",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1822,
+    "name": "XMGlobal-Real 16",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1823,
+    "name": "XMGlobal-Real 39",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1824,
+    "name": "XMGlobal-Real 28",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1825,
+    "name": "XMGlobal-Real 22",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1826,
+    "name": "XMGlobal-Real 26",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1827,
+    "name": "XMGlobal-Real 251",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1828,
+    "name": "XMGlobal-Real 9",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1829,
+    "name": "XMGlobal-Demo 4",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1830,
+    "name": "XMGlobal-Demo 2",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1831,
+    "name": "XMGlobal-Demo",
+    "mt4": 1,
+    "mt5": 0,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1832,
+    "name": "XMGlobal-MT5",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 917
+  },
+  {
+    "id": 1833,
+    "name": "XMGlobal-MT5 2",
+    "mt4": 0,
+    "mt5": 1,
+    "fk_broker_id": 917
+  }
+]
