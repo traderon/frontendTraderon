@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useSnackbar } from "notistack";
-
+// action
 import { getTradesData } from "../../actions/tradesActions";
-
+// mui
 import Card from "@mui/material/Card";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
@@ -23,9 +23,11 @@ import CloseIcon from "@mui/icons-material/Close";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
-
+// components
 import MainLayout from "../../layouts/full/mainlayout";
 import Spinner from "../common/Spinner";
+
+import metaServerData from "../../config/metatraderServerNames.json";
 
 const brokers = ["Oanda", "Metatrader"];
 // oanda
@@ -34,7 +36,6 @@ const timezones = ["DO NOT CONVERT"];
 // metatrader
 const metatraderTypes = ["mt4", "mt5"];
 const metatraderBrokers = ["GrowthNext"];
-const metatraderServers = ["GrowthNext-Server"];
 
 export default function BrokerSync() {
   const dispatch = useDispatch();
@@ -65,6 +66,14 @@ export default function BrokerSync() {
   const [mtPassword, setMtPassword] = useState("");
   const [mtBroker, setMtBroker] = useState("");
   const [mtServer, setMtServer] = useState("");
+  const [metatraderServers, setMetatraderServers] = useState([]);
+  useEffect(() => {
+    if (mtValue === "mt4") {
+      setMetatraderServers(metaServerData.filter((data) => data.mt4 === 1));
+    } else {
+      setMetatraderServers(metaServerData.filter((data) => data.mt5 === 1));
+    }
+  }, [mtValue]);
 
   const [settings, setSettings] = useState("");
 
@@ -279,8 +288,8 @@ export default function BrokerSync() {
                   onChange={(e) => setMtServer(e.target.value)}
                 >
                   {metatraderServers.map((server, index) => (
-                    <MenuItem key={index} value={server}>
-                      {server}
+                    <MenuItem key={index} value={server.name}>
+                      {server.name}
                     </MenuItem>
                   ))}
                 </Select>
