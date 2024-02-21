@@ -28,8 +28,9 @@ import CircularProgress from "@mui/material/CircularProgress";
 // components
 import MainLayout from "../../layouts/full/mainlayout";
 import Spinner from "../common/Spinner";
-
+// metatraderJSON
 import metaServerData from "../../config/metatraderServerNames.json";
+import metaBrokerData from "../../config/metatraderBrokers.json";
 
 const brokers = ["Oanda", "Metatrader"];
 // oanda
@@ -37,7 +38,6 @@ const dataRanges = ["All Trades", "Latest Trades"];
 const timezones = ["DO NOT CONVERT"];
 // metatrader
 const metatraderTypes = ["mt4", "mt5"];
-const metatraderBrokers = ["GrowthNext"];
 
 function delay(duration) {
   return new Promise((resolve) => {
@@ -78,18 +78,37 @@ export default function BrokerSync() {
   const [mtServer, setMtServer] = useState("");
 
   const [serverOpen, setServerOpen] = useState(false);
+  const [brokerOpen, setBrokerOpen] = useState(false);
   const [metatraderServers, setMetatraderServers] = useState([]);
+  const [metatraderBrokers, setMetatraderBrokers] = useState([]);
   const serverLoading = serverOpen && metatraderServers.length === 0;
+  const brokerLoading = brokerOpen && metatraderBrokers.length === 0;
 
   useEffect(() => {
     let active = true;
-    if (!serverLoading) return undefined;
+    if (!brokerLoading) return undefined;
     (async () => {
       if (active) {
         if (mtValue === "mt4") {
-          setMetatraderServers(metaServerData.filter((data) => data.mt4 === 1));
+          setMetatraderBrokers(
+            metaBrokerData.filter((data) => {
+              const ids = metaServerData
+                .filter((server) => server.mt4 === 1)
+                .map((filtered) => filtered.fk_broker_id);
+              const uniq = [...new Set(ids)];
+              return uniq.includes(data.id);
+            })
+          );
         } else {
-          setMetatraderServers(metaServerData.filter((data) => data.mt5 === 1));
+          setMetatraderBrokers(
+            metaBrokerData.filter((data) => {
+              const ids = metaServerData
+                .filter((server) => server.mt5 === 1)
+                .map((filtered) => filtered.fk_broker_id);
+              const uniq = [...new Set(ids)];
+              return uniq.includes(data.id);
+            })
+          );
         }
       }
       await delay(1e3);
@@ -97,7 +116,31 @@ export default function BrokerSync() {
     return () => {
       active = false;
     };
-  }, [mtValue, serverLoading]);
+  }, [mtValue, brokerLoading]);
+
+  useEffect(() => {
+    let serverActive = true;
+    if (!serverLoading) return undefined;
+    (async () => {
+      if (serverActive) {
+        setMetatraderServers(
+          metaServerData.filter(
+            (server) =>
+              server.fk_broker_id ===
+              metaBrokerData.find((broker) => broker.name === mtBroker).id
+          )
+        );
+      }
+      await delay(1e3);
+    })();
+    return () => {
+      serverActive = false;
+    };
+  }, [mtBroker, serverLoading]);
+
+  useEffect(() => {
+    if (!brokerOpen) setMetatraderBrokers([]);
+  }, [brokerOpen]);
 
   useEffect(() => {
     if (!serverOpen) setMetatraderServers([]);
@@ -288,25 +331,42 @@ export default function BrokerSync() {
               <Typography>Select Broker</Typography>
             </Grid>
             <Grid item xs={12} sm={8}>
-              <FormControl fullWidth>
-                <Select
-                  labelId="datarange"
-                  disabled={mtValue === ""}
-                  value={mtBroker}
-                  onChange={(e) => setMtBroker(e.target.value)}
-                >
-                  {metatraderBrokers.map((broker, index) => (
-                    <MenuItem key={index} value={broker}>
-                      {broker}
-                    </MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
+              <AutoComplete
+                open={brokerOpen}
+                disabled={mtValue === ""}
+                onOpen={() => setBrokerOpen(true)}
+                onClose={() => setBrokerOpen(false)}
+                onChange={(e, newValue) => {
+                  setMtBroker(newValue.name);
+                }}
+                isOptionEqualToValue={(broker, value) =>
+                  broker.name === value.name
+                }
+                getOptionLabel={(broker) => broker.name}
+                options={metatraderBrokers}
+                loading={brokerLoading}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    InputProps={{
+                      ...params.InputProps,
+                      endAdornment: (
+                        <React.Fragment>
+                          {brokerLoading ? (
+                            <CircularProgress color="inherit" size={20} />
+                          ) : null}
+                          {params.InputProps.endAdornment}
+                        </React.Fragment>
+                      ),
+                    }}
+                  />
+                )}
+              />
             </Grid>
           </Grid>
           <Grid container spacing={1} alignItems="center">
             <Grid item xs={12} sm={4}>
-              <Typography>Select Server Namee</Typography>
+              <Typography>Select Server Name</Typography>
             </Grid>
             <Grid item xs={12} sm={8}>
               <AutoComplete
