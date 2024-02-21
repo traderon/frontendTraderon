@@ -123,20 +123,32 @@ export default function BrokerSync() {
     if (!serverLoading) return undefined;
     (async () => {
       if (serverActive) {
-        setMetatraderServers(
-          metaServerData.filter(
-            (server) =>
-              server.fk_broker_id ===
-              metaBrokerData.find((broker) => broker.name === mtBroker).id
-          )
-        );
+        if (mtValue === "mt4") {
+          setMetatraderServers(
+            metaServerData.filter(
+              (server) =>
+                server.fk_broker_id ===
+                  metaBrokerData.find((broker) => broker.name === mtBroker)
+                    .id && server.mt4 === 1
+            )
+          );
+        } else {
+          setMetatraderServers(
+            metaServerData.filter(
+              (server) =>
+                server.fk_broker_id ===
+                  metaBrokerData.find((broker) => broker.name === mtBroker)
+                    .id && server.mt5 === 1
+            )
+          );
+        }
       }
       await delay(1e3);
     })();
     return () => {
       serverActive = false;
     };
-  }, [mtBroker, serverLoading]);
+  }, [mtBroker, mtValue, serverLoading]);
 
   useEffect(() => {
     if (!brokerOpen) setMetatraderBrokers([]);
@@ -337,7 +349,11 @@ export default function BrokerSync() {
                 onOpen={() => setBrokerOpen(true)}
                 onClose={() => setBrokerOpen(false)}
                 onChange={(e, newValue) => {
-                  setMtBroker(newValue.name);
+                  if (newValue === null) {
+                    setMtBroker("");
+                  } else {
+                    setMtBroker(newValue.name);
+                  }
                 }}
                 isOptionEqualToValue={(broker, value) =>
                   broker.name === value.name
@@ -375,7 +391,11 @@ export default function BrokerSync() {
                 onOpen={() => setServerOpen(true)}
                 onClose={() => setServerOpen(false)}
                 onChange={(e, newValue) => {
-                  setMtServer(newValue.name);
+                  if (newValue === null) {
+                    setMtServer("");
+                  } else {
+                    setMtServer(newValue.name);
+                  }
                 }}
                 isOptionEqualToValue={(server, value) =>
                   server.name === value.name
