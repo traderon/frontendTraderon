@@ -23,6 +23,8 @@ import CloseIcon from "@mui/icons-material/Close";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
+import AutoComplete from "@mui/material/Autocomplete";
+import CircularProgress from "@mui/material/CircularProgress";
 // components
 import MainLayout from "../../layouts/full/mainlayout";
 import Spinner from "../common/Spinner";
@@ -36,6 +38,14 @@ const timezones = ["DO NOT CONVERT"];
 // metatrader
 const metatraderTypes = ["mt4", "mt5"];
 const metatraderBrokers = ["GrowthNext"];
+
+function delay(duration) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, duration);
+  });
+}
 
 export default function BrokerSync() {
   const dispatch = useDispatch();
@@ -66,14 +76,32 @@ export default function BrokerSync() {
   const [mtPassword, setMtPassword] = useState("");
   const [mtBroker, setMtBroker] = useState("");
   const [mtServer, setMtServer] = useState("");
+
+  const [serverOpen, setServerOpen] = useState(false);
   const [metatraderServers, setMetatraderServers] = useState([]);
+  const serverLoading = serverOpen && metatraderServers.length === 0;
+
   useEffect(() => {
-    if (mtValue === "mt4") {
-      setMetatraderServers(metaServerData.filter((data) => data.mt4 === 1));
-    } else {
-      setMetatraderServers(metaServerData.filter((data) => data.mt5 === 1));
-    }
-  }, [mtValue]);
+    let active = true;
+    if (!serverLoading) return undefined;
+    (async () => {
+      if (active) {
+        if (mtValue === "mt4") {
+          setMetatraderServers(metaServerData.filter((data) => data.mt4 === 1));
+        } else {
+          setMetatraderServers(metaServerData.filter((data) => data.mt5 === 1));
+        }
+      }
+      await delay(1e3);
+    })();
+    return () => {
+      active = false;
+    };
+  }, [mtValue, serverLoading]);
+
+  useEffect(() => {
+    if (!serverOpen) setMetatraderServers([]);
+  }, [serverOpen]);
 
   const [settings, setSettings] = useState("");
 
@@ -263,6 +291,7 @@ export default function BrokerSync() {
               <FormControl fullWidth>
                 <Select
                   labelId="datarange"
+                  disabled={mtValue === ""}
                   value={mtBroker}
                   onChange={(e) => setMtBroker(e.target.value)}
                 >
@@ -280,20 +309,37 @@ export default function BrokerSync() {
               <Typography>Select Server Namee</Typography>
             </Grid>
             <Grid item xs={12} sm={8}>
-              <FormControl fullWidth>
-                <Select
-                  labelId="timezone"
-                  value={mtServer}
-                  disabled={mtBroker.length === 0}
-                  onChange={(e) => setMtServer(e.target.value)}
-                >
-                  {metatraderServers.map((server, index) => (
-                    <MenuItem key={index} value={server.name}>
-                      {server.name}
-                    </MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
+              <AutoComplete
+                open={serverOpen}
+                disabled={mtBroker.length === 0}
+                onOpen={() => setServerOpen(true)}
+                onClose={() => setServerOpen(false)}
+                onChange={(e, newValue) => {
+                  setMtServer(newValue.name);
+                }}
+                isOptionEqualToValue={(server, value) =>
+                  server.name === value.name
+                }
+                getOptionLabel={(server) => server.name}
+                options={metatraderServers}
+                loading={serverLoading}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    InputProps={{
+                      ...params.InputProps,
+                      endAdornment: (
+                        <React.Fragment>
+                          {serverLoading ? (
+                            <CircularProgress color="inherit" size={20} />
+                          ) : null}
+                          {params.InputProps.endAdornment}
+                        </React.Fragment>
+                      ),
+                    }}
+                  />
+                )}
+              />
             </Grid>
           </Grid>
         </Stack>
