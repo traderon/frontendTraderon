@@ -3,8 +3,6 @@ const CONFIG = {
     "pk_test_51OEZFSBZGWXP17wPSXSfVjlhfo0kwBKXE1m1ZQqcmT5Syx9ouSEdOv3SJ83fwBKsAARGsPWrJGQFuLJtWNAybdqx002Mzpp7iX",
   CLIENT_ID:
     "ATBpOlumbVitSHZCjcGI7xt6oWrh2U4H4txemJ7d7IAvna1vcSm45hmML80kJ8OPwgZcGc3VmCxBlJnS",
-  APP_SECRET:
-    "EE3WO3JqYPfE0qqC2UCw47Z0wcLPiBkM0jNf8uAJmGI1BeltAJKi8ahcM5WA4f-4VDvak9B7dVmpU3fP",
 };
 
 export default CONFIG;
