@@ -664,7 +664,7 @@ export default function EnhancedTable(props) {
                               : { color: "darkgreen" }
                           }
                         >
-                          {row.return2.toFixed(2)}
+                          {row.return2.toFixed(2)}%
                         </TableCell>
                         <TableCell
                           align="left"
