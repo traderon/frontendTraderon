@@ -66,11 +66,20 @@ export default function TradesTable() {
     else setTableData([]);
   }, [trades]);
 
-  const [filters, setFilters] = useState({
-    brokers: [],
-    symbols: [],
-    statue: [],
-  });
+  const savedFilters = JSON.parse(localStorage.getItem("__filters"));
+  const [filters, setFilters] = useState(
+    savedFilters
+      ? savedFilters
+      : {
+          brokers: [],
+          symbols: [],
+          statue: [],
+        }
+  );
+
+  useEffect(() => {
+    if (filters) localStorage.setItem("__filters", JSON.stringify(filters));
+  }, [filters]);
 
   useEffect(() => {
     if (!isEmpty(trades.trades)) {
@@ -154,9 +163,10 @@ export default function TradesTable() {
                 variant="contained"
                 color="error"
                 size="small"
-                onClick={() =>
-                  setFilters({ brokers: [], symbols: [], statue: [] })
-                }
+                onClick={() => {
+                  setFilters({ brokers: [], symbols: [], statue: [] });
+                  localStorage.removeItem("__filters");
+                }}
                 sx={{ ml: 2, my: 0.5 }}
               >
                 clear filters
