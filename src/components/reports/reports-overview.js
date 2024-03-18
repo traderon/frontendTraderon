@@ -214,6 +214,24 @@ export default function ReportsOverview({ selected }) {
     data: [],
   });
   const [openPercent, setOpenPercent] = useState(0);
+  const [accumReturnPercentTotal, setAccumReturnPercentTotal] = useState(0);
+  const [accumReturnPercentSeries, setAccumReturnPercentSeries] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [biggestPercentProfit, setBiggestPercentProfit] = useState(0);
+  const [biggestPercentLose, setBiggestPercentLose] = useState(0);
+  const [percentProfitsChart, setPercentProfitsChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
+  const [percentLosesChart, setPercentLosesChart] = useState({
+    name: "",
+    color: "#0094b6",
+    data: [],
+  });
 
   useEffect(() => {
     (async () => {
@@ -249,6 +267,12 @@ export default function ReportsOverview({ selected }) {
             dailyLosers,
             beCount,
             dailyBe,
+            returnPercentSeries,
+            returnPercentTotal,
+            biggestPercentProfit,
+            biggestPercentLose,
+            percentProfits,
+            percentLoses,
           } = res.data;
           setAccumTotal(totalReturn);
           setAccumTotalChart({
@@ -372,6 +396,30 @@ export default function ReportsOverview({ selected }) {
             data: dailyBe.length > 200 ? arrayFilter(dailyBe, 200) : dailyBe,
           });
           setOpenPercent((totalOpenTrades * 100) / totalTrades);
+          setAccumReturnPercentTotal(returnPercentTotal);
+          setAccumReturnPercentSeries({
+            ...accumReturnPercentSeries,
+            data:
+              returnPercentSeries.length > 100
+                ? arrayFilter(returnPercentSeries, 100)
+                : returnPercentSeries,
+          });
+          setBiggestPercentProfit(biggestPercentProfit);
+          setBiggestPercentLose(biggestPercentLose);
+          setPercentProfitsChart({
+            ...percentProfitsChart,
+            data:
+              percentProfits.length > 100
+                ? arrayFilter(percentProfits, 100)
+                : percentProfits,
+          });
+          setPercentLosesChart({
+            ...percentLosesChart,
+            data:
+              percentLoses.length > 100
+                ? arrayFilter(percentLoses, 100)
+                : percentLoses,
+          });
         })
         .catch((err) => console.log(err));
       setIsLoading(false);
@@ -598,32 +646,56 @@ export default function ReportsOverview({ selected }) {
             <Paper sx={{ p: 2 }}>
               <Typography>Accumulative Return %</Typography>
               <Typography variant="h5" mb={1}>
-                <b>TODO</b>
+                <b>{accumReturnPercentTotal.toFixed(2)}</b>
               </Typography>
+              <Chart
+                options={optionChart1}
+                series={[accumReturnPercentSeries]}
+                type="area"
+                height={50}
+              />
             </Paper>
           </Grid>
           <Grid item xs={12} md={6} lg={3}>
             <Paper sx={{ p: 2 }}>
               <Typography>Accumulative Return Net %</Typography>
               <Typography variant="h5" mb={1}>
-                <b>TODO</b>
+                <b>{accumReturnPercentTotal.toFixed(2)}</b>
               </Typography>
+              <Chart
+                options={optionChart1}
+                series={[accumReturnPercentSeries]}
+                type="area"
+                height={50}
+              />
             </Paper>
           </Grid>
           <Grid item xs={12} md={6} lg={3}>
             <Paper sx={{ p: 2 }}>
               <Typography>Biggest % Profit</Typography>
               <Typography variant="h5" mb={1}>
-                <b>TODO</b>
+                <b>{biggestPercentProfit.toFixed(2)}</b>
               </Typography>
+              <Chart
+                options={optionChart1}
+                series={[percentProfitsChart]}
+                type="area"
+                height={50}
+              />
             </Paper>
           </Grid>
           <Grid item xs={12} md={6} lg={3}>
             <Paper sx={{ p: 2 }}>
               <Typography>Biggest % Loser</Typography>
               <Typography variant="h5" mb={1}>
-                <b>TODO</b>
+                <b>{biggestPercentLose.toFixed(2)}</b>
               </Typography>
+              <Chart
+                options={optionChart1}
+                series={[percentLosesChart]}
+                type="area"
+                height={50}
+              />
             </Paper>
           </Grid>
           <Grid item xs={12} md={6} lg={3}>
